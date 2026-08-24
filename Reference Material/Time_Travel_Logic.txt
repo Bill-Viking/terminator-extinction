@@ -1,0 +1,36 @@
+TIME TRAVEL MECHANICS (FINAL):
+
+CORE RULES:
+- The TDE creates a temporal bubble anchored to your origin timeline
+- Travel to the past creates a branch at the destination point
+- The origin timeline is unaffected
+- Return forward follows your anchor — back HOME
+- Intervention fails: killing someone in a branch doesn't change YOUR past
+- Time moves forward simultaneously in all timelines — there is no frozen past waiting to be revisited
+
+SIMULTANEOUS PROGRESSION:
+- All timelines — origin and branches — flow forward at the same rate
+- When the Relay reaches into a branch, it targets a specific moment in that branch's present (or past)
+- Once someone is extracted from that moment, the moment recedes into the branch's past. The door doesn't stay open — it was a moment, and moments pass
+- This is the mechanical reason for severance: John can't go back because the "when" he was taken from no longer exists as a present. It's gone. The branch kept flowing without him
+- The Relay is a one-shot extraction, not a doorway. You grab something and pull it forward. The extraction point vanishes the instant after it happens
+- This also closes the sequel question "why not send John back?" — back to WHERE? The 2000 he left doesn't exist anymore. The John-shaped hole in that branch has already healed over. The timeline continued without him
+
+THE RELAY:
+- Skynet developed it circa 2030 to observe past branches after seeing no changes to its timeline from the T1/T2 missions
+- It can reach into a branch and pull something (or someone) forward into the origin timeline
+- The imported subject disappears from the branch and exists only in the present
+- Skynet tested it on the T2 branch multiple times — each observation targeted a different point along the same branch's timeline. Watched John alive in 1998, checked again later, verified Judgment Day never happened, even killed John in the branch. Each observation was a snapshot into the branch's flowing timeline, not a visit to a frozen moment. No effect on the origin timeline from any of it
+- Skynet concluded branch interventions were pointless and mothballed the Relay as a failed investment
+- Three limiters prevented further use: energy cost (significant during an active war), tunnel vision (Skynet only built it to check one question and stopped asking when the answer was negative), nothing worth retrieving from past branches
+- Reactivated out of desperation when Future John's biometrics failed — import a fresh John Connor with working eyes to the intact scanner
+- The Resistance knows the Relay exists from intelligence gathered circa 2030 but doesn't understand how it works or that Skynet abandoned it
+
+SEVERANCE:
+- When John steps through the Relay into 2032, his connection to his origin timeline is permanently severed
+- He becomes part of this timeline — there is no return
+- The severance is not a rule imposed by the technology — it is a consequence of time moving forward. The moment he left is already in the past. There is nothing to return to
+
+THE LINE: "When you step through, your timeline ends. You become part of mine."
+
+THE EXPLANATION: Lightning metaphor. Keep it visual, keep it simple. Time travel mechanics operate beneath the story. Exposition should be visual and minimal. The audience doesn't need the Relay's history or the simultaneous progression rule explained — they need to know John goes through and can't come back. 47's line does that. The mechanics exist so the writer knows the logic is airtight, not so the audience hears a physics lecture.

@@ -16,6 +16,17 @@ on beyond John Connor.
 |------|------------|
 | [`TERMINATOR_EXTINCTION.pdf`](TERMINATOR_EXTINCTION.pdf) | The screenplay, ready to read |
 | [`TERMINATOR_EXTINCTION.fdx`](TERMINATOR_EXTINCTION.fdx) | Final Draft source file |
+| [`TERMINATOR_EXTINCTION_World_Bible.md`](TERMINATOR_EXTINCTION_World_Bible.md) | The world bible — start here for the story's rules and canon |
+
+## Reference material
+
+Curated development documents in [`Reference Material/`](Reference%20Material/):
+the authoritative development outline, the structural logic (why Skynet
+can't nuke, the Relay, the Silence), the thematic spine, and the time-travel
+rules — plus supporting notes on machine consciousness and production design,
+and the original "becoming self-aware" outline sketches. Sequel material
+(the DARK RAIN treatment and sequel concept brief) lives in
+[`Reference Material/Sequels/`](Reference%20Material/Sequels/).
 
 ## Status
 

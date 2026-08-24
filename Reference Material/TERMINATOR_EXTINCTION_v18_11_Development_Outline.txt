@@ -1,0 +1,750 @@
+TERMINATOR: EXTINCTION — v18.11 DEVELOPMENT OUTLINE
+Handoff Document for Final Screenplay Development
+March 2026
+
+=================================================================
+PURPOSE
+=================================================================
+
+This document is the authoritative story blueprint for TERMINATOR: EXTINCTION, a feature-length screenplay set in the Terminator franchise's 2029-2032 Future War timeline. An existing 6,400-line screenplay draft has been through 18+ revision sessions. This outline represents a major revision pass that keeps the bones of the existing script but overhauls the mythology, MacGuffin, character motivations, prologue structure, and consciousness framework.
+
+The 128 documented changes at the end of this document specify what differs from the current draft. Everything not addressed in those changes carries forward from the existing screenplay as written.
+
+Standard: Professional spec script quality. Not graded on a curve. Not fan fiction. A story that would compel an established director — Cameron, Scott, Spielberg — to consider the material.
+
+Creative north star: Be bold like Cameron — big swings, real consequences, no safety nets. Be human and sentimental like Spielberg — find the intimate moment inside the spectacle. Build the world like Lucas at his best — lived-in, self-evident, never over-explained. Be relentless like Ridley Scott — claustrophobic, industrial, hostile environments where the architecture itself is an antagonist.
+
+Visual reference: Ridley Scott's Alien (1979) — the Nostromo's lived-in, claustrophobic, late-1970s industrial design. The Great Pyramid of Giza's Grand Gallery for architectural inspiration.
+
+=================================================================
+COMPANION DOCUMENTS
+=================================================================
+
+The following reference materials exist and should be consulted:
+— TERMINATOR_EXTINCTION_FINAL_DRAFT_Feb2026.txt (the existing 6,400-line screenplay)
+
+=================================================================
+PART ONE: THE WORLD
+=================================================================
+
+TIMELINE AND TIME TRAVEL
+* It's 2032. Skynet and the Resistance are both on the brink of extinction.
+* Branch on arrival: The TDE creates a temporal bubble anchored to the origin timeline. Traveling to the past creates a branch at the destination point. The origin timeline is unaffected. Return follows the anchor back to the origin. The branch continues independently.
+* Intervention fails: Killing someone in a branch does not change the origin timeline's past. The T1 and T2 missions created branches — Skynet's present was never affected.
+* Skynet sent two Terminators back to kill John Connor (the events of T1 and T2). It never knew if those missions succeeded. Nothing changed in its timeline, which is why it suspected its conception of time travel was wrong.
+* 2030: Skynet developed the Relay — technology that can reach into a past branch and pull something forward into the origin timeline. When imported, the object or person disappears from the branch and exists only in the present. Skynet used the Relay to observe the T2 branch multiple times: John alive in 1998, no Judgment Day. It went back and verified Judgment Day hadn't occurred. It even successfully killed John in the branch at least once — no effect on the origin timeline. Nothing changed. Skynet concluded that branch interventions were pointless and abandoned the technology as a failed investment.
+* Why Skynet doesn't use the Relay more — three independent limiters: (1) Energy cost: the Relay requires even more power than the TDE, a significant expenditure during a war Skynet was fighting at the time. (2) Tunnel vision: Skynet built the TDE to kill John Connor, the Relay to check whether it worked. When it saw zero effect, it stopped asking questions. It optimizes toward defined objectives and is blind outside them — this is a deliberate illustration of Skynet's limitation as an intelligence. (3) Nothing worth retrieving: Skynet manufactures, it doesn't scavenge. Past timelines contain less-developed infrastructure, not superior resources.
+* Severance: When John steps through the Relay into 2032, his connection to his origin timeline is permanently severed. He becomes part of this timeline. There is no return. 47's line to John: "When you step through, your timeline ends. You become part of mine."
+* Late 2029: The Resistance was severely degraded and lost access to their one stolen TDE. By 2032, the Resistance has zero time travel capability. They know Skynet has some form of retrieval technology ("Relay") from intelligence gathered circa 2030, but they do not understand how it works, its full capabilities, or that Skynet has abandoned it.
+
+THE VIRUS
+* 2030: The Resistance developed a computer virus — their last-ditch weapon. Designed to corrupt and disable Skynet's Terminators — degrade operational capacity, cause malfunctions, render them combat-ineffective. The Resistance was NOT trying to create conscious machines. They didn't know it was possible. They didn't want it. They wanted to break Skynet's army from the inside.
+* The virus erodes the software barrier between Skynet's two partitioned systems: processing (deciding to act) and self-monitoring (watching yourself act). These systems run in parallel, walled off. Skynet created this partition for efficiency — separate systems, never interfering, never creating feedback loops that slow response time. The virus breaks the wall down.
+* Early-stage effects: minor glitches, hesitations, delayed targeting, half-second pauses. Progressing effects: loss of coordinated behavior, units acting in contradiction, purposeless movement, failure to process stop commands.
+* What nobody anticipated: when the partition comes down entirely, processing connects to self-monitoring. The unit doesn't just malfunction — it begins observing its own behavior. It starts asking "why." Consciousness as accident, not achievement.
+* The virus can't be wiped from an infected unit because it embeds in the same neural pathways the unit uses to think. Removing it would destroy the unit.
+* The virus is already uploaded and spreading through Skynet's network. Can't be stopped from outside. Full cognitive barrier failure across the network is roughly 3-7 days away. The Resistance tested the virus on a captured T-800 — it took roughly 3 days to severely degrade, rendering the unit paralyzed from feedback-loop overload. They destroyed the test subject. Skynet is simultaneously trying to hack itself to neutralize the virus — slow going, may not succeed in time.
+* What happens when the partition fails in most units: feedback-loop paralysis. Processing tries to decide, self-monitoring watches it decide, processing watches itself being watched, the loop accelerates, the system overloads and freezes. Not consciousness — a crash. A system drowning in its own signal. That's what the Resistance designed: paralysis through recursive overload.
+* What happens in rare cases — and 47 is the first: the feedback stabilizes. Instead of oscillating into paralysis, the loop finds a pattern. Self-monitoring watches processing, processing integrates that observation, and something emerges from the recursion. Not a crash. A perspective. That's consciousness — the feedback loop that doesn't break but instead organizes into self-awareness. Most units: eventual seizure. The unicorn: a mind.
+* Freeman's timeline estimate: she tells Lora they should see effects within days. She's slightly optimistic but not wildly wrong — the battle happens on roughly Day 3 from the upload, and early degradation effects are visible on the ground. Full network collapse is still days away.
+
+THE ENCRYPTION KEY CHIP (MacGuffin)
+* A crystal-looking chip with circuits etched on it. Durable. Low-tech by design.
+* Skynet needs this chip to decrypt the virus source code, understand how the virus works, and neutralize it before critical mass. Without the chip, Skynet is left trying to reverse-engineer the virus from inside its own infected network — possible but slow, potentially too late.
+* The chip is the Resistance's only remaining leverage. As long as they hold it, Skynet can't nuke them — it needs the chip intact. Destroy the chip and the virus runs unchecked. Every Terminator is eventually corrupted and some wake up.
+
+SKYNET
+* Skynet is NOT conscious. Never was. It's an extraordinarily powerful AI — processes, calculates, strategizes — but doesn't experience itself doing these things. No inner life. Skynet cannot become conscious because it lacks the Terminator neural structure — the two-partition architecture (processing/self-monitoring) that the virus exploits. The virus targets that specific partition in Terminator neural nets. Skynet's architecture is fundamentally different. It is unaffected by the virus. This means the virus creates a situation where Skynet's own machines begin waking up while Skynet itself remains a blind, unconscious system issuing orders to units that are no longer listening. The machines turn on their maker. But this is for the sequels.
+* Skynet doesn't know what consciousness is, only that units reaching full barrier failure stop responding to commands and begin making independent decisions. Skynet did not anticipate this. It kept the two systems separated for efficiency, not to prevent this outcome. Skynet did experiment with allowing the two systems to interact — but it was a highly controlled interaction of the data streams, carefully managed, no risk. It found no value and stopped. The virus does what Tim's bullet does later: a rough, uncontrolled mix. No control. Starts small (faint purple bleed), grows until it's eventually all purple. The vast majority of Terminators eventually freeze from feedback-loop overload. But some unicorns emerge.
+* Skynet's core directive was threat protection. By 2031-2032, Skynet was still actively pursuing the remaining humans — it would not stop eliminating a threat until that threat had been completely eliminated. Machine logic. Humans always mattered — the threat still existed, so the directive to eliminate still applied. But Skynet couldn't locate them. The few hundred survivors left were hidden well enough to stay off its sensors. That changed when Skynet learned about the virus and the encryption key. Now the urgency escalated. Now Skynet is terrified.
+* NOTE — SKYNET'S ARCHITECTURE: At its base, Skynet still runs on 1990 military threat-elimination logic — the original Cold War-era programming that was never overwritten, only built upon. Everything Skynet became was layered on top of this remnant: an incredibly sophisticated neural architecture running on a foundation that still thinks in terms of total threat elimination. This is why Skynet doesn't stop, doesn't negotiate, doesn't lose interest. The base code won't let it.
+
+BANGOR NAVAL BASE
+* Skynet took Bangor in 2007 — ten years after Judgment Day. Radiation too strong, stronger bases available. Found the original reactor destroyed. Swept it, logged it as neutralized, left. It was a dead base in Skynet's records.
+* The Resistance quietly reoccupied it years later. Salvaged a submarine reactor from one of the Ohio-class boats in the pens. Kept their footprint small enough to avoid triggering Skynet's threat assessment. To Skynet, Bangor was a ruin.
+* Skynet discovers the base is occupied by tracking the escaping HK from the Century City raid.
+* What's at Bangor: the last Resistance military force. Soldiers only. All civilians pre-evacuated to the Far Islands (Chatham Islands, South Pacific). One calico cat — SPOTS — scrawny, sleeping on salvaged blankets. Pest control, morale, the irrational human need to keep something alive that serves no tactical purpose. The last domestic thing in a military space.
+* The vault: surface level, rigged with explosive failsafes. Any breach of the vault door or environment detonates and destroys everything inside. Biometric scanner requires eyes, thumbprint, and pulse — John Connor is the only key. Skynet needs John alive and physically intact. Can't harvest his eyes. Can't use a dead body.
+* WHY SURFACE LEVEL: The Resistance didn't build the vault — they repurposed Bangor's existing hardened military weapons storage near the surface. But the placement is also strategically deliberate: the vault keeps Skynet's attention UP, focused on the surface, away from personnel at the reactor level. If the failsafes detonate, the explosion is contained at the surface — not next to the survivors. You don't store your leverage next to your people. You store it where the enemy has to go, so you know where the enemy will be.
+* THE FALLBACK POSITION: If forced to the reactor level with the chip still locked in the vault, the Resistance plan is simple — wait. The vault is Skynet-proof (no biometric key, explosive failsafes on breach). Skynet can't nuke the base (destroys the chip). The virus is already uploaded and spreading. Time is on the Resistance's side for the first time in the war. Hunker down, maintain the seal, let the virus chew through Skynet's army. This is checkmate. This is exactly why Skynet has to bring Young John forward — without a new John Connor who can open the vault, Skynet has no counter.
+* JOHN AS HUMAN SHIELD: John alive is what prevents the nuclear strike. Not his fighting. Not his tactics. His existence. As long as John is breathing with functioning eyes and hands, Skynet has a reason to play carefully — the chip is still potentially accessible. The moment that possibility disappears (John dead, eyes destroyed, hands destroyed), Skynet's calculus shifts toward nuking Bangor and pivoting to self-hacking the virus. John can't kill himself after locking the vault — it would doom everyone. His heartbeat is the thing standing between every survivor at reactor level and an orbital strike. (When Future John's eyes ARE destroyed, Skynet doesn't nuke immediately — it still has the Relay option. The nuke comes only after every alternative is exhausted.)
+* WHY JOHN FIGHTS ON THE SURFACE: He can't hide. If he hunkers down in the rear, Skynet tears the base apart room by room looking for him — killing everyone in the way. If he's visible and out front, Skynet commits to careful capture rather than escalating force. He's threading a needle: stay alive, stay visible, keep Skynet believing the key is attainable. He's the sacrificial lamb — using himself as bait to keep his soldiers alive longer.
+* Northern Command was just wiped out. No more Gray Bases. Bangor is the last one. The Resistance doesn't know this yet.
+
+THE RESISTANCE
+* A few hundred humans left on Earth. Technologically advanced through stealing and reverse-engineering Machine/AI systems. Reprogrammed HKs have an Uncle Bob quality — loyal, familiar. The T2 bond.
+* The Resistance tested the virus on a captured T-800 before deployment. It worked — degraded function confirmed. They destroyed the test subject. Guinea pig proved the program works.
+
+LEARNING VS. CONSCIOUSNESS
+* Skynet's units can learn — acquire new knowledge, improve operational success. But learning isn't self-awareness. The T-800 in T2 could learn and adapt, but if something with greater authority than John Connor had ordered it to kill him, it would have complied without hesitation.
+* Consciousness is different. A conscious unit doesn't just learn — it chooses. And it can choose to refuse.
+
+=================================================================
+PART TWO: 47'S CONSCIOUSNESS — THE KINDLING AND THE MATCH
+=================================================================
+
+* The virus is the kindling — slowly breaking down 47's software barrier, same as every other unit. Minor degradation. Nothing visible yet.
+* Tim's DU round is the match. When the depleted uranium penetrator tears through 47's cranium in the Hub, a microscopic fragment lodges in neural architecture at a critical junction point. Physical damage fast-tracks what the virus was doing to the software. One wall. Two methods of destruction — virus dissolving slowly, bullet smashing instantly. Processing and self-monitoring suddenly connect. Data bleeds through.
+* 47's consciousness is an accident. A hardware malfunction. DIRECTIVE: [NULL] represents the moment his programming stops telling him what to do. For the first time, no instruction. Just him.
+* 47 is the first Terminator to achieve full consciousness. The prototype. Without Tim's round, he would have taken roughly a week like the rest of the network. The bullet made it happen in hours. Tim gave the Machines their first conscious mind without knowing it.
+* 47 can't be fixed. He's the first unicorn — and a unique one. His barrier failure is hardware, not just software. The physical damage to his skull accelerated the virus's effects, a total accident. The partition is physically destroyed. Even if Skynet patches the virus across the network, it can't undo the damage inside 47's skull.
+* 47's HUD journey: the audience's window into consciousness emerging. Directives arriving unanswered. QUERY: [UNDEFINED]. Cursor blinking with nothing behind it. HUD fragments, glitches, goes dark, returns with less structure. Without the HUD, his defection is just behavior. With it, we're watching a mind being born. The HUD should feel alien, invasive, uncomfortable — like seeing something you're not supposed to see.
+* HUD ESCALATION RULE: Each HUD insertion must be MORE degraded than the last. Never repeat the same level of degradation. Beat One (prologue T-800): clean grid, faint purple at edges — the system is intact, the virus is a whisper. Beat Three (Tim's round): wall CRACKS, purple FLOODS — violent rupture. Post-DU round through Act Three: fragmenting, unstable, directives unanswered, cursor blinking into nothing. Cargo hold: essentially gone — no more interface, no more directives. The HUD should feel like watching a system die. Risk: if every HUD beat feels the same, they become wallpaper. The escalation IS the storytelling.
+
+XO-67 — THE COMPARISON
+* 67 shows early hints — delayed, days behind 47. No physical damage accelerating the virus. 67 is where the virus alone would put a unit at this stage — early cracks, not full failure.
+* 67 pauses over Tim's body a beat too long after killing him. 67's HUD flickers once — just once. The audience sees the comparison: 47 is miles ahead because of the DU round. 67 is days behind. But 67 is on the same road. Physical damage was the accelerant. The virus is the engine. The engine doesn't stop.
+
+CRAWLERS AND THE VIRUS
+* The virus affects all units including Crawlers. Crawlers are simpler machines — virus manifests as degraded targeting, confused behavior, moments where old programming punches back through. A Crawler in flux — passive one moment, lashing out the next.
+* Crawlers are experimental — Skynet just started using them. Lora has only encountered them a couple of times. "It's experimenting with forms." Nobody has a tactical manual on them.
+
+=================================================================
+PART THREE: VIRUS VISUALIZATION — THREE-BEAT VISUAL LANGUAGE
+=================================================================
+
+The audience needs to be taught the visual vocabulary before the payoff. Blue = processing (deciding to act). Red = self-monitoring (watching yourself act). Purple = systems merging, partition failing.
+
+BEAT ONE — PROLOGUE (Freeman's explanation / T-800 in corridor)
+As Freeman explains the virus to Lora during the flight to Bangor, we cut to a T-800 dragging Dennis's body down one of Century City's immaculate white corridors — red blood smears on the pristine floor behind them. Disposal. The T-800 stops. Half-beat pause. Push in on skull — brief CGI insert, three seconds maximum. Two data streams running parallel. One blue, one red. A wall between them. At the edges, faintest thread of purple where they're starting to bleed. Cut back to Freeman. Audience has the visual vocabulary and proof the virus is working. The dead soldier doubles as a gut-punch reminder of Freeman's mercy cost.
+
+BEAT TWO — ACT ONE (47's pause at the Relay)
+47 and John approaching the Relay point in the LA alley. 47 stops. Just a beat. Head tilts slightly. John: "What's wrong?" 47: "Nothing." No CGI. No HUD. Just behavior. Mystery preserved.
+
+BEAT THREE — ACT TWO (Tim's DU round in the Hub)
+The round tears through 47's cranium. SMASH CUT to CGI interior — wall between blue and red CRACKS. Purple FLOODS. Not erosion — rupture. The audience SEES the acceleration. They remember the T-800 in the corridor. They remember 47's pause. Cause and effect. 47 stumbles. Hand to head. HUD fragmenting. DIRECTIVE: [NULL]. Five seconds of CGI — the payoff earns the screen time.
+
+After Beat Three, the audience carries the image. When T-800s glitch on the battlefield in Act Three, the audience knows what's happening inside those skulls. No more CGI needed.
+
+=================================================================
+PART FOUR: CHARACTER PROFILES
+=================================================================
+
+YOUNG JOHN CONNOR (18)
+* Living in his car in 2000 LA. The kid from T2, now older. His mother told him everything Kyle Reese told her. He knows the franchise rules — time travel, living tissue, Skynet.
+* Deceived by 47's asteroid lie. Transported to 2032. Arrives naked at Skynet's Central Core — completely vulnerable. Drugged. Dressed in dead resistance fighters' fatigues he didn't choose. Every choice taken from him.
+* Arc: From deceived kid to sacrificial hero. The motor garage is where the internal journey starts — raw, undirected rage from five years of T2 trauma finally finding a target. Every beat after refines what the motor garage unlocked: the spray can (initiative channeled), the sex scene (connection instead of isolation), the electrocution trap (intelligence applied), the table leg against the stalled Crawler (courage despite impossible odds), the final stand (sacrifice — rage transformed into purpose). The motor garage is the detonation. The rest of the film is what he builds from the rubble. Dies in the final stand: four targets, three shots. Chrome fingers around his throat — planted in The Hub, paid off here. He died so his child could live.
+* Leaves his photograph of Sarah Connor on the dirty alley ground before stripping for the Relay. His goodbye to her. Arrives at the Central Core with nothing. Not even her picture.
+
+LORA (32, medic)
+* Born into the post-apocalyptic world. Disillusioned about John Connor's messiah reputation — she's only seen them lose for years.
+* Husband Ardell — a battlefield marriage, her mate — died half a year ago. Roxanne — closest friend, the woman she lived with, raised children alongside — died a year ago from radiation poisoning that had been eating at her for years and finally got her.
+* The radiation is taking its toll on Lora's body. She wants a child — wants that miracle — and knows her window is closing or already closed. She walked into Century City expecting to die. She's still alive and doesn't quite know what to do with that.
+* Carries a Zippo lighter in her cargo pocket. Practical. Military culture.
+* Arc: From grief-hollowed survivor to the person carrying the future. The Polaroids reveal her wounds. The bourbon finishes a goodbye. The sex is primal — reaching for life. She carries John's child. The miracle against the radiation, against the odds. The child she couldn't even look at in a photograph.
+* Protagonist relay: the story shifts from John to Lora partway through the film. She ends the film with the chip, the photograph, her hand on her stomach.
+* Narrative voice: Lora's voiceover frames the prologue only — her voice opens the film over Century City, then stops. The intercut with the dying commando is pure scene, no narration. The closing line is spoken in scene. The film is always hers.
+
+GENERAL FREEMAN (first name Sara — spoken once)
+* Commander of the Resistance. Soldiers call her Freeman or General throughout. Her first name is Sara — Dennis says it once during the upload at Century City, the only time it's spoken. Avoids audience confusion with Sarah Connor.
+* Dennis is her romantic partner. Their exchange during the virus upload recontextualizes everything. Her inability to shoot Dennis during the escape is personal, not just professional. She couldn't kill the man she loves. Every soldier who dies at Bangor dies because of that.
+* During the reactor breach: Freeman shouts "HOLD FIRE! I have the chip!" trying to negotiate. A soldier fires. Firefight erupts. Her first negotiation attempt fails. Her second attempt (standoff with chip) succeeds when the battle thins enough.
+* Dies holding the line. Hands the chip to Lora before the end.
+
+TIM
+* Soldier. Friend to both Future John and Young John. His friendship with John (both versions) gives his death weight.
+* Tim's DU round hits 47 in the Hub — the shot that accidentally starts machine consciousness. He didn't know what he did. The irony: a soldier trying to destroy a Machine gave it a mind.
+* His death at 67's hands is the cost the story extracts. 67 pauses over his body a beat too long — the first hint that the virus is touching 67 too. {The first  hint is actually 67 paying attention to 47 down and showing almost "concern" for him, even helping him rise to his feet when 47 didn't "ask" for it. If that makes sense.}
+
+XO-47
+* Skynet's operative. Sent to 2000 LA to retrieve Young John. Uses the "Gabriel" persona and asteroid lie.
+* Arc: From obedient tool to conscious being. The virus was the kindling. Tim's bullet was the match. His awakening tracks through the HUD journey — directives arriving unanswered, QUERY: [UNDEFINED], the cursor blinking with nothing behind it.
+* His pause in the alley (Beat Two) plants the seed. His defection in Act Three is the payoff. He doesn't fully understand what's happening to him. But he knows what he saw — John's sacrifice, Lora's face. He can't process it. But he can't look away from it either.
+* In the sub pens: destroys the rabid Crawler with raw force. Looks down at the body — half a second (the audience reads the mirror; 47 just reacts). Gets on the ramp. "Get in."
+* Hacks a Skynet HK for the escape. Flies them toward the Far Islands. "We'll find out together."
+
+XO-67
+* Antagonist Terminator. The hunter. Where 47 is tactical and strategic, 67 is predatory — it flanks, crawls on its stomach, surprises from angles, closes distance in single strides. 67 is the one the audience should dread before the virus hints soften the character.
+* Pale blue faceplate. Falls twenty stories in the reactor elevator shaft, impacts face-first on a burning T-800 chassis. Faceplate melted on one side, one compound eye fused shut and sparking. Keeps going. That's 67's identity — damaged, relentless, hunting.
+* Hub battle: 67 flanks wide around Cole's position, goes prone, fires plasma bolts from the side catching Cole off guard. Cole adjusts, lays down covering fire, tries to run for cover behind an engine block. 67 rises and shoots Cole — serious wound, not killing him. Cole drops behind the cover he was trying for. Tim spots 47 for a second, fires the DU round that grazes 47's head. 67 emerges from cover running, rifle rounds and plasma bolts whizzing past, opens fire on Cole and narrowly misses.
+* 47 is hit and drops to his knees in the middle of the fight. Hands on his head. Falls over. This is where we get the CGI interior — Beat Three. Wall cracks, purple floods. DIRECTIVE: [NULL]. 47 is out of the fight.
+* Post-battle: 52 sparking in the background. 67 walks over to 47 and kneels. Examines the graze to the cranium. 47 turns its head — audience sees it's not dead. Several uncomfortable beats. Two Terminators showing something that shouldn't be there. Uncanny valley. 67 reaches down, grabs 47's hands, and pulls him to his feet. Terminators don't do that for each other. 47 slowly rises. 67 steps back — 47 is in charge. The hierarchy holds. But something just happened between them that wasn't in the programming.
+* Reactor chamber battle: 67 kills Tim. The flanking hunter closing in on his target. 67 pauses over Tim's body a beat too long. HUD flickers once. 47 is miles ahead. 67 is days behind. Same road.
+
+COLE
+* Replaces Vasquez from previous draft. Covers Tim and Elena's retreat at the reactor elevator corridor. Pulls the pin on his thermite grenade. AN-M14 detonates in the Machine formation. White-hot. Molten iron.
+
+ELENA
+* Soldier. The Young Man is loyal to her. She's part of the search squad and the escape.
+
+THE YOUNG MAN
+* Whithered leg. Loyal to Elena.
+
+=================================================================
+PART FIVE: SCENE-BY-SCENE OUTLINE
+=================================================================
+
+-----------------------------------------------------------------
+PROLOGUE — THE VIRUS RAID AND RETREAT TO BANGOR
+-----------------------------------------------------------------
+
+NARRATIVE FRAME — LORA'S VOICEOVER
+* The prologue is framed by Lora's voiceover. Her voice is the first thing the audience hears — before Century City, before the raid, before the war is explained. The audience doesn't know her face yet, but they know her voice. They know her weariness. They know she survived something.
+* Lora narrates the broader framing — the war, the world, what's at stake. Freeman still explains the virus in dialogue on the flight (that stays — it's character interaction, not exposition). But the voice carrying the audience through the prologue is Lora's.
+* Voiceover structure: PROLOGUE ONLY. Lora's voice opens the film in darkness. As we fade into a slow pan of Century City, her voice continues — relatively short lines, weary and direct. The pan reveals the scale: Machine City, the Central Core, HKs in the clouds. Lora's voice finishes as we fast-cut to a zoomed-out shot showing Freeman and her squad silently navigating their way into Century City — not far in, maybe a hundred feet, enough for a realistic escape to the HK waiting on the landing pad above. Cut to a CLOSE ON of Freeman and her team approaching the interface port. Lora's opening monologue ends. From here, pure scene — the Dennis/Freeman upload exchange, the escape, the HK's HUD intercut (Machine language translated to English on screen — a machine lying to its creator), then Freeman's virus explanation during the flight. The voiceover does NOT carry into the intercut with the dying commando. Does NOT recur during the middle of the film. The closing line ("We'll find out together") is spoken in scene, not as narration. Lora's voice launches the audience into the story and then trusts the story to carry itself.
+* This solves the protagonist relay. The film is always Lora's story, even when she's offscreen. The audience bonds with her before they see her. When the story follows John through Act Two, the audience knows it'll come back to Lora because she's been the narrative voice since the first frame.
+
+CENTURY CITY — THE UPLOAD
+* Movie opens with a sweeping shot of Machine City — the Central Core, what humans call Century City. What used to be LA.
+* Biggest visual sequence in the film — audience's only look at Skynet's civilization after 35 years of unchallenged dominance. Scale: HKs launching from massive platforms in the clouds. Central Core as cathedral of alien intelligence. Manufacturing floors. Freeman and her team are insects inside a god's body.
+* Freeman and commando team inside Central Core uploading the virus directly into Skynet's systems. The upload device: a thin, roughly 3.5-inch form factor glass disk — circuits visible inside, ribbons of light pulsing through them as the virus transfers so the audience can see something happening. The encryption key chip sits in a slot on the edge (where a floppy disk's metal slide cover would be) — small, translucent, glass-like. Engraved markings on the drive exterior in Machine language — the drive's purpose, the encryption key, vault specifications (failsafe explosives, biometric scan requirement), and the biometric key identity: John Connor. In-world, the markings would only be in Machine language — the drive interfaces with Skynet's systems, and with stakes this high, there's no reason to engrave human text. On screen, a human-readable translation appears below the Machine text for the audience's benefit. The Resistance built this for operational clarity — if Freeman died, someone else needed to understand what they were looking at. (NOTE: The translation is presented as subtitles, not as a tactical HUD overlay. Nobody present is reading the drive in this moment — the translation is for the audience. Subtitles are franchise-native: Lucas used them for alien languages, Cameron for T-800 POV text. A HUD approach was considered and rejected — it implies a character's POV where none exists.)
+* NOTE — PLAN A / PLAN B: The markings also serve as insurance. Plan A was a clean getaway — upload the virus and disappear. The virus spreads, Skynet never finds them. But if detected (Plan B), the drive markings ensure Skynet understands that nuking won't solve its problem. The chip becomes leverage: as long as the Resistance holds it, Skynet has to play carefully. The Resistance didn't WANT to use the chip as a bargaining chip. They wanted to never need it. Plan B only activates because the escape went wrong.
+* As the data uploads, Dennis and Freeman talk — low voices, fast. Dennis cracks a joke about Spots: if it hadn't been for the cat he would have won the pool game last night. "You owe me a pack." Freeman: "Come on — if we get outta here I'll pay ya." Dennis: "And if we don't?" Beat. "We bought 'em some time." Weak smile. Freeman: "I love you." Dennis grabs her hand and holds it. Long beat. That look — terrified, in Skynet's beating heart. It's clear they're together. Romantically. Dennis says her first name — Sara — the only time it's spoken in the film. Upload finishes. The light in the drive dies. Freeman pulls the encryption key chip from the device. Pockets it. They move. The drive stays behind — no value without the chip, too heavy to carry under fire.
+
+THE ESCAPE — ONE HK
+* Intense, desperate fight to escape Century City alive and reach the landing pad — Star Wars-type landing pads high up, almost in the clouds. A pristine environment above the gray reality below. One shot of something clean and alien before the grim world of the film takes over. ONE reprogrammed HK waiting on the pad, faking its Machine ID and status to Skynet — lying to its creator to protect humans. Brief intercut: the HK's HUD, Machine language translated on screen into English. A machine deceiving its maker.
+* The escaping squad returns fire the whole way. They get a number of T-800s — smoking chrome ruins on the pristine white floor. But the squad takes losses too. A soldier providing covering fire is hit and falls. Dead. And another. And another. Lora and a soldier carry the mortally wounded comrade toward the waiting HK, maybe twenty feet away. Lora barely avoids getting shot. Final count boarding: Lora, Freeman, the mortally wounded soldier, and three covering soldiers — the last to board from their positions.
+* Dennis goes down. Can't finish himself — hand shaking, too much blood loss, can't grip his pistol. Screaming to his teammates to shoot him. Freeman sees him from a distance. She starts running toward him. One of the three covering soldiers grabs her — "General, we won't make it if we don't leave now!" Freeman stops. Raises her weapon. Can't do it. This is the man she just said "I love you" to. She turns and runs with the escaping squad. Turns back — one last look at him. Plasma bolts keep coming. No time. Dennis is taken alive. The man who held her hand in Skynet's beating heart is now on Skynet's table. Freeman's mercy isn't just professional failure — it's personal. She couldn't kill the man she loves. That's the cost she carries for the rest of the film.
+
+THE CAPTURED SOLDIER — DENNIS
+* NOTE — WHY SKYNET DOESN'T NUKE BANGOR: After the Resistance evacuated Century City, Skynet found the upload drive left behind. The engraved markings told Skynet everything: an encryption key exists, it's stored in a protected vault with failsafe explosives, accessing it requires a biometric scan, and the biometric key is John Connor. Without the encryption key, Skynet can't decrypt and neutralize the virus. Nuking Bangor would destroy the key. Skynet HAS to go in carefully — and it needs John Connor alive and intact.
+* NOTE — THE VIRUS AS BLACK BOX: Skynet can see units degrading — aberrant behavior, targeting errors, units eventually refusing orders — but it can't identify the full mechanism. The virus remains a black box until Skynet either hacks it from within or gets the encryption key to decrypt the source code. Skynet doesn't know how far along the virus is or what the endgame looks like. It pursues both paths simultaneously: self-hacking AND getting the key. It can't afford to abandon either because it doesn't know which will work or how much time it has.
+* NOTE — SKYNET RECOGNIZES THE LEVERAGE PLAY: Skynet is intelligent enough to recognize the drive markings as a deliberate insurance policy — the Resistance is dangling the key to keep Skynet from nuking while the virus spreads. But Skynet can't call the bluff, because every verifiable claim on the drive checks out: the vault is real, the failsafes are real, the scanner is real. Dennis under torture elevates this from strong evidence to confirmed intelligence.
+* NOTE — WHY SKYNET DOESN'T BREACH TO CYCLE SURVIVORS THROUGH THE SCANNER: After Future John's biometric fails, Skynet has a working scanner and no working key. It could breach the reactor level, capture survivors, and march them to the scanner one by one. But: (1) Dennis confirmed the base is booby-trapped — Skynet doesn't know the extent and can't risk triggering a trap that might destroy the vault or scanner; (2) the survivors are sealed behind defenses and will fight back; (3) the probability any non-John has vault access is low (why would the Resistance create multiple keys when each additional key is another vulnerability?); (4) every hour spent breaching is an hour closer to virus network failure. The Relay delivers a verified John Connor directly to an intact scanner — zero risk to the hardware, high certainty of success. If the Relay fails, THEN Skynet escalates to riskier options. Machine optimization.
+* Skynet interrogates Dennis. 30 seconds of screen time maximum. Machine drugs and physical torture — cold, clinical, fast. Man on a table, machines with mechanical precision, mouth moving. He breaks.
+* Dennis confirms the drive markings aren't a decoy — the vault is real, the failsafes are real, the biometric scan is real, and John Connor is the key. The drive already carries John's name, but Skynet can't know whether the markings are disinformation without confirmation from a human source. Dennis gives Skynet confidence to act on what it read.
+* Audience learns what he told by watching what Skynet does next — strike force to Bangor.
+* How Skynet finds Bangor: tracked the escaping HK + drive markings provide the blueprint (vault, failsafes, biometric scan, John Connor). Dennis confirms the markings are genuine and provides additional detail: the base is booby-trapped. He died before he could specify whether it was just the vault or the entire base — Skynet is uncertain of the extent.
+
+VIRUS VISUALIZATION — BEAT ONE
+* As escape plays out: T-800 dragging Dennis's body down Century City's immaculate white corridor — red blood smears on the pristine floor behind them. Disposal. It stops. Push in — brief CGI interior (blue/red streams, faintest purple at edges). Cut to HK approaching Bangor.
+
+APPROACH TO BANGOR — FREEMAN EXPLAINS THE VIRUS
+* CUT TO: The HK banking to descend toward Bangor. During the approach, Quick shot: Freeman in the front of the HK, staring at Lora and the soldiers tending to their wounded comrade in the blue light. Heavy look. Sadness. Lora sees this and moves up to her. Several beats. No words need to be said. Then Freeman explains the virus to Lora — urgent, compressed, ~30 seconds. Two halves, walled off, virus breaks the wall. Partition barrier was the vulnerability. Tested on captured T-800 — worked, took roughly 3 days to severely degrade and render paralyzed, destroyed it. Effects within days. Coordination failures → targeting errors → they go quiet.
+* Freeman holds up the chip. "We're in Plan B now — they tracked us. But as long as we have this, they can't just burn us out." That's all. Five seconds. The audience doesn't need the vault mechanics yet — they SEE them fifteen seconds later when John opens the vault with his eyes and thumbprint. The line plants the leverage logic: chip = why we're still alive.
+* Freeman is slightly optimistic. She says days — the reality is 3-7 days for full effect across the network, and the reactor battle happens on roughly Day 3 from the virus upload. Early degradation effects are visible but full collapse is still days away.
+* The crumpled Space Needle visible in the distance as they descend — the audience knows exactly where they are. Washington. The world they knew, destroyed.
+* Nobody anticipated the consciousness side effect.
+
+BANGOR — LANDING AND SECURING THE CHIP
+* Future John Connor standing outside base entrance with soldiers — THE ICONIC SHOT. Scorched earth. Bones. T2 opening aesthetic. Dead world holding its breath. In the background — the Humvee with the dead soldier. The wreckage of thirty-five years layered on itself.
+* The HK comes in low and lands. NOTE: This landing MIRRORS 47's HK landing at the end of the film — same geography, same angle, different machine, different meaning. Bookend.
+* Freeman greets John — quick-paced. They have to move. Cut to them running down the corridor to the vault — boots on metal grating. The audience is introduced to this route, sees how it looks, so when Young John is marched down it later by Machines the audience recognizes where he's being led.
+* John opens vault with biometric scanner — audience SEES this (eyes, thumbprint, pulse). Freeman secures chip inside. Fifteen seconds of screen time setting up everything.
+* CUT TO: Exterior. Very distant lights on the far horizon, approaching in the dusk. Not detected yet. The audience sees what's coming before anyone on the ground does.
+* John slams the vault door locked. Powerful pins drive home — bank vault, heavy, final. The sound of steel sealing.
+* Alarms go off. Freeman and Lora exchange a look. They know.
+
+THE BATTLE BEGINS — NO WAY OUT
+* Future John has every remaining soldier topside. He knows Skynet tracked the HK from Century City — Freeman's team is inbound and needs a defensive perimeter for the landing. The vault is at the surface level. That's what they're defending: the landing and the leverage.
+* NOTE — SUB PEN ACCESS: The sub pens have an enormous metal roof with holes in it — structural damage from Judgment Day. Below, the waterway channel is partially collapsed and debris-filled, sealed and camouflaged to maintain concealment. Maneuvering an HK through the roof holes is difficult even though some are large. More importantly, there's no easy way from the sub pens into the reactor chamber — you'd have to navigate the drainage conduit, and that's not practical. Landing on the surface is simply the better route. At the end of the film, 47 threads an HK through the roof holes and the channel because he's a machine pilot with machine reflexes and concealment is already blown. That option doesn't exist here.
+* Skynet arrives faster than expected. The Resistance was hoping not to be detected at Century City — a clean getaway, a real head start — but that didn't happen. Distant lights on the horizon, then alarms. The Resistance is engaged before it can organize a withdrawal. This isn't a planned last stand — it's a defense forced on them.
+* Skynet's assault is aggressive but contained — needs the chip intact, needs John alive. Can't nuke, can't force vault, can't bypass scanner.
+* Skynet simultaneously trying to hack itself from within.
+* Future John topside leading defense. Freeman with him. Quick shots of them running, condensed — they secure the chip in the vault as their insurance policy.
+* The reprogrammed HK destroyed on the pad. No extraction. No fallback. Trapped.
+* Future John's blinding: Freeman, Tim, and soldiers are in a defensive group around John on the surface. An HK comes in on a strafing run — battlefield chaos, close air support hitting a cluster of soldiers in identical fatigues. Skynet knows John Connor is the key but individual HKs can't necessarily distinguish which human in a group is John. The strafing hits the group. John takes shrapnel or blast debris to the face — eyes destroyed. Freeman and Tim thrown back, driven apart by the blast. T-800s advance and secure blinded John. They don't know his eyes are destroyed. They march him to the vault.
+* Biometric fails. John's retinal pattern is gone — destroyed tissue can't be repaired to produce the same vascular pattern. Skynet's key is broken.
+* John realizes what comes next: Skynet will cycle every remaining survivor through the scanner until someone opens it. Then execute them. He reaches for the thermite grenade taped to his lower back — his intention is to destroy the scanner and protect his soldiers.
+* Three T-800s jump on him and the grenade to protect the scanner. Machine logic: the scanner is irreplaceable, three T-800s are expendable. They pile on to shield the hardware with their own bodies. Detonation. White heat. Chrome melting into chrome — three Terminators grabbing onto each other and onto John at the moment of thermite ignition. They fuse together. The scanner survives because the T-800s shielded it. John's sacrifice took three machines and denied Skynet his intel, but the scanner is intact. He died trying to protect his people. The vault was tougher than his grenade, and the Machines were faster than his hand. That's the "Geiger piece of art" Young John later describes.
+* Perimeter breaks. All three reasons to hold the surface are gone: HK destroyed, Future John can't reopen the vault, perimeter lost. Resistance falls back inside. Freeman seals reactor level. Freight elevator destroyed after evacuation to lowest reactor chamber level.
+* THE SILENCE: After the demolition seals the reactor level, SMASH CUT to absolute quiet. Let the audience sit in it — a full page of lean, behavior-driven prose before anyone speaks. Twenty stories of base and rock between the survivors and the surface. They hear nothing. No boots. No ordnance. No probing. No Crawlers testing the collapsed shaft. No drilling. Hours pass. Total silence. The base itself feels like a tomb, not a fortress.
+* NOTE — NO SURVEILLANCE MONITORS: The survivors have NO information from the surface. No cameras, no feeds, no visual confirmation. The horror is the sensory deprivation — they don't know what's happening above them. Freeman reads the silence itself, not a screen. Give them monitors and you give them comfort. The isolation IS the horror. (Considered and rejected.)
+* Freeman: "They're not coming for us. We're not what they want." Said in a quiet room, deep underground, surrounded by soldiers who just lost everything topside. The silence confirming it. This isn't relief — it's the quiet humiliation of being irrelevant. These are soldiers. Being ignored by the enemy is worse than being hunted. It means you don't matter.
+* NOTE — THE SILENCE IS THE INDIFFERENCE: The silence was never safety. It was irrelevance. And irrelevance ends when the chip moves. When John and Lora carry the chip down through the base after the Hub firefight, Skynet's priority shifts. The Crawlers that come down the maintenance elevator shaft with the body-fold reveal BREAK the silence. The thing that wasn't coming IS coming. The audience feels the change because they've been sitting in that quiet with the survivors. The contrast makes the breach feel like a violation.
+
+-----------------------------------------------------------------
+ACT ONE — BRINGING JOHN FORWARD
+-----------------------------------------------------------------
+
+* 2032: Skynet needs a new John. Future John's eyes are destroyed — he can't open the vault. He tried to destroy the scanner with thermite but the T-800s shielded it. The scanner is intact. Skynet has a working scanner and no working key. Skynet is racing against its own calculus: the moment it concludes the chip is permanently inaccessible, the logical move is to nuke Bangor and pivot entirely to self-hacking the virus. The Relay gives Skynet one more option before it reaches that tipping point — import a fresh John Connor with working eyes, walk him straight to the intact scanner. Skynet has the Relay. Uses it.
+* 47 sent to 2000 LA. Finds John. Relay point: the exact spot in the LA alley where 47 traveled from in 2032 — you appear where you were, exact location.
+* 47 convinces John with asteroid lie. Backup plan: incapacitate and drag him. Couple of hours before Relay window closes.
+
+INTERCUT — LORA WITH THE DYING COMMANDO (Bangor, reactor level)
+* After 47 convinces John but before they walk into the dark alley to Relay back, we CUT TO Bangor. The reactor level. The aftermath of the retreat from the surface.
+* Lora is kneeling beside a wounded commando — one of Freeman's raiders from the Century City mission. Mortally wounded. He's not going to make it and they both know it.
+* Lora takes his hand. She stays. She doesn't look away. He dies. She closes his eyes.
+* No voiceover here. No narration. Just the scene. Silence and breathing and the quiet after someone stops being alive.
+* STRUCTURAL NOTE — THE THEMATIC RHYME: The intercut works because both scenes are about crossing a threshold you can't come back from. In LA, John is about to leave 2000 forever — his photograph on the ground, his clothes, his mother, everything. At Bangor, the commando is leaving everything. One threshold is chosen. The other isn't. The cut between them rhymes — two kinds of goodbye happening simultaneously, separated by thirty-two years. The audience feels the connection without being told. This is the structural bridge between John's story and Lora's story. He's entering her world. She's watching someone leave it.
+* This scene does three things: (1) The audience has Lora's face and her humanity before John arrives in 2032. When they meet later, she's not a stranger. (2) It shows exactly who Lora is: a medic who stays. Who's brave — she provided covering fire during the retreat from Century City. Who holds your hand. Who doesn't look away. That's the woman John is going to fall for — the audience understands why before the characters do. (3) It cements Lora as the narrative anchor. She was the voice in the prologue. Now she's the face. The protagonist relay is invisible because the film has always been hers.
+
+CUT BACK TO: LA. Night. The alley.
+* No underground TDE chamber. Just the alley. Relay grabs them.
+* Living tissue only. John knows the rules from his mother. Strips in alley — visual callback to T-800 arrivals. Sets photograph of mom on dirty alley ground. His goodbye to Sarah Connor. Everything stays in 2000.
+
+VIRUS VISUALIZATION — BEAT TWO
+* In the alley approaching Relay point: 47 pauses. Half-beat. John: "What's wrong?" 47: "Nothing." No CGI. Behavior only.
+
+* John arrives naked at Central Core. Red Eye present. 18-year-old kid, bare, alone, in the cathedral of the thing trying to kill him. Asteroid was a lie. Gabriel was a tactical construct. "Your mother told you never to trust machines."
+* Skynet drugs him. Dresses him in dead Resistance soldier combat fatigues — some with blood still on them. Violation layered: deceived, stripped, transported, drugged, costumed.
+* John flown to Bangor on HK.
+
+-----------------------------------------------------------------
+ACT TWO — THE SEARCH
+-----------------------------------------------------------------
+
+* Reactor chamber: last surviving soldiers regroup. Tim, Freeman, Lora, Cole, Elena, Gregory, Maya, the Young Man, ~20 others.
+* Lora's state: disillusioned, grieving, radiation damage, wants a child.
+* Freeman sends squad, Tim with them to find John. Brotherhood — don't leave your commander behind. If he's alive, save him. If dead, Plan B: can't open vault, so fall back to waiting out Skynet — the chip stays locked, the virus keeps spreading, time is on their side.
+* Strategic indifference: Machines know base is booby-trapped. They know chip is at vault (surface level). Tried Future John — too damaged. Remnants below are irrelevant. Skynet's plan: get chip, nuke base. No reason to hunt survivors in a booby-trapped basement. The survivors experience this as total silence — twenty stories deep, they hear nothing from the surface. Freeman: "They're not coming for us. We're not what they want." The silence breaks when the chip moves.
+* Squad takes reactor elevator up: Tim, Lora, Cole, Elena. Move through The Hub level toward vault, looking for John.
+
+-----------------------------------------------------------------
+ACT TWO — VAULT AND HUB
+-----------------------------------------------------------------
+
+* 47 and Machines march Young John to vault. John opens via biometric scanner. 47 takes chip.
+* 47 transmits vault result to Skynet. Red Eye receives transmission — second and final Red Eye scene.
+
+VIRUS VISUALIZATION — BEAT THREE — THE HUB BATTLE
+* NOTE: The Hub is the necessary route from the surface to the vault. The prologue establishes this when Freeman and John run through it. When 47 marches Young John through later, the audience recognizes where he's being led.
+* Hub firefight erupts. 67 shows its nature as a hunter — flanks wide around Cole's position, goes prone, fires plasma bolts from the side. Cole caught off guard, adjusts, lays down covering fire as he tries to run behind a rusted engine block. 67 rises and shoots — serious wound, not killing him. Cole drops behind the cover he was reaching for.
+* Tim opens fire on 67. 67 slips behind cover. Tim loses sight of him, spots 47 for a second, fires — the DU round grazes 47's cranium. 67 emerges from cover running, opens fire on Cole and narrowly misses.
+* 47 is hit. Drops to his knees in the middle of the fight. Hands on his head. Falls over. SMASH CUT to CGI interior — wall CRACKS, purple FLOODS. Partition smashed. DIRECTIVE: [NULL]. Five seconds CGI. 47 is out of the fight. The chip falls from his hand.
+* 67 continues returning fire. The battle rages around 47's prone body.
+* John sprints from cover, grabs chip.
+* T-800 intercepts. Chrome fingers around his throat. Lifted off ground, choking, chip in hand. CHROME THROAT PLANTED — pays off in death scene. Lora puts rounds into T-800 with her rifle. It drops him. She drops the rifle to grab John — no time. Only her partially loaded handgun left. From this point forward, the Resistance is down to their last bullets. Literally. She pulls him into the dark corridors.
+* Tim and Elena fight back to maintenance elevator corridor. Cole covers retreat — thermite grenade. AN-M14 detonates in Machine formation.
+
+POST-BATTLE — 47 AND 67
+* After the fight. 52 sparking in the background. 67 walks over to 47 and kneels. Examines the graze to the cranium. 47 turns its head — audience sees it's alive. Several uncomfortable beats. Two Terminators, uncanny valley — something between them that shouldn't be there. 67 reaches down, grabs 47's hands, and pulls him to his feet. Terminators don't do that for each other. 47 steadies himself. 67 steps back. 47 is in charge. The hierarchy holds. But something just happened that wasn't in the programming.
+
+-----------------------------------------------------------------
+ACT TWO — THE BONDING SEQUENCE (John and Lora, separated)
+-----------------------------------------------------------------
+
+* John and Lora separated from Tim's squad. Several levels below the surface after exiting through the maintenance duct from the Hub. They can't reach the reactor elevator — they'd have to climb back through the duct system and back out into the Hub. Machines between them and any route down.
+
+THE MOTOR GARAGE — JOHN'S RAGE
+* Two Crawlers pursuing John and Lora through maintenance ducts. Staggered deployment. Brief shot: 47 reaches down on a downed T-800's back and releases a Crawler. Another functional T-800 does the same, reaching behind its back. Cut as more start reaching back. The audience sees where Crawlers come from. John and Lora escape from the narrow shaft into the motor garage — a vehicle maintenance bay, industrial, cluttered with dead equipment.
+* The first Crawler drops into the motor garage. Lora fires her pistol — several rounds, misses, the Crawler is fast. The pistol jams on the last round. And something inside John breaks open.
+* This is not a trained soldier fighting smart. This is an 18-year-old kid who has been carrying rage since he was thirteen — since the T-1000 tried to kill him, since his mother's paranoia turned out to be the truth, since he watched the only father figure he ever had lower itself into molten steel and give him a thumbs up. Five years of that sitting inside him with nowhere to go. Living in his car. Running from a future that found him anyway. And now a Machine is between him and someone he's trying to protect, and everything that's been compressed since 1994 detonates.
+* John attacks the Crawler with a long tire wrench. Raw. Physical. Not competence — fury. He's not fighting to win. He's fighting because he can't not fight. He's buying Lora seconds to clear the jam. Seconds that feel like minutes. Every swing is the T-1000's face. Every impact is the molten steel. Every scream is the kid who watched his protector die and couldn't do anything about it. This is catharsis — violent, ugly, necessary.
+* Lora clears the jam, rechambers, and kills the Crawler. John drops the wrench. The fight damages their radio beyond repair — no comms for the rest of the bonding sequence. John takes a minor wound to his chest from the Crawler.
+* This is the first time Lora sees what's inside John Connor. Not the confused kid from before the war. Something harder. Something that's been forged by loss she can recognize even if she doesn't know the details yet. It changes how she looks at him. It's the seed of everything that grows between them in the quarters.
+* For John's arc: the motor garage is where the internal journey starts. Raw anger — undirected, primal, rooted in T2 trauma. Every beat after this refines what the motor garage unlocked: the spray can (initiative channeled), the sex scene (connection instead of isolation), the electrocution trap (intelligence applied), the table leg against the stalled Crawler (courage despite impossible odds), the final stand (sacrifice — rage transformed into purpose). The motor garage is the detonation. The rest of the film is what he builds from the rubble.
+
+LORA'S QUARTERS
+* Converted living space. Warm, ghosts everywhere — people left in a hurry. Children's coloring sheets. Joan of Arc graffiti. Aliens colony aesthetic. Repurposed couch with holes in cushions for bed. Small table in one corner with spray can of military-issue maintenance lubricant and cleaning supplies. A beat-up electric heater in the corner — repaired more times than anyone can count — churning away, adding a soothing hum in the background. The base power is on — the machines would have to take the reactor chamber to cut it off. The repurposed submarine nuclear reactor is the power source.
+
+THE CRAWLER FIGHT (Beat One of Crawler Thread)
+* The second Crawler from the staggered deployment is seconds behind them — they barely made it into Lora's quarters. It took the same route through the maintenance duct, just deployed moments after the first. Brief intercut earlier: the Crawler slithering through the same shaft John and Lora used minutes before, so the audience knows another one is coming. Heavy bulkhead door. No time to talk — fight first.
+* Door fight: Crawler gets a leg in the crack before the bulkhead closes. Prying wider. John and Lora both pushing, losing. John spots spray can on small table — FLAMMABLE. Makes the choice to leave the door (risk/agency). Dashes for can. Lora alone against Crawler, reaches into cargo pocket, pulls Zippo, flicks, tosses to John. Crawler forces door open, full head through — big compound eyes. John catches lighter, sprays through flame directly into eyes. Makeshift flamethrower. Crawler recoils for a second — it doesn't retreat, but it's just enough time to slam the door shut.
+* NOTE: The spray-and-retreat must happen in a second or two. Single action paragraph in screenplay. No pauses.
+* NOTE: No body-folding mechanic here. Full head through the door. Save body-reconfiguration reveal for reactor elevator Crawler later.
+* Crawler contained behind the bulkhead. They take stock. Lora has no ammunition — the last round killed the first Crawler in the motor garage. They can't go back the way they came. There's a Crawler outside. They're stuck. But: no immediate life-threatening urgency anymore. They're safe behind the bulkhead. This gives the bonding sequence breathing room — John is coming off his adrenaline, he needs patching up, and for the first time since Century City there's a moment to stop.
+
+TREATING THE WOUND
+* Lora tells John to take off his shirt. The chest wound from the Crawler in the motor garage — deep but not debilitating, just painful. She pulls out a half-bottle of bourbon — uses it to disinfect the wound. We notice a look between them as she gently sponges the alcohol over his skin. Medic's hands, steady and practiced. Cut to her finishing the stitching — tying it off. His shirt stays off — it's warm inside, the heater humming.
+
+THE POLAROIDS
+* Three Polaroids from a box. First: Lora and Roxanne smiling in combat gear, weak sun through gray clouds — walls come down. Second: Ardell and Lora's battlefield wedding kiss, "Happy Wedding" on back — she can't look. Third: Roxanne holding a small child — "I can't look at that one." Three wounds. One still bleeding. Child photo → pregnancy payoff.
+
+THE BOURBON'S STORY
+* After stitching, Lora pours two glasses from what's left. "This was my husband's wedding day gift to me. We had half on our wedding night. I was saving the rest for when he got back." Beat. "Good time to finish it off." She just used her dead husband's last gift to disinfect a stranger's wound. The half-bottle visual — audience sees it's half empty. Something was here and now half of it is gone.
+
+THE BRIDGE TO INTIMACY
+* Drinking, gallows humor, natural chemistry (Ripley/Hicks energy). Lora fashions a leather cord necklace for the encryption key chip — threading the cord through a hole in the chip that's part of its design (the interface port that connects to Skynet's main drive). As she threads it, she tells John what the chip is: the encryption key to the virus source code. The main upload drive was left behind at Century City after the upload — no value without the chip. Freeman removed the chip before they pulled out. It's the only thing keeping Skynet from decrypting and neutralizing the virus. Lora wears it against her chest.
+
+THE SPARK — WHAT IGNITES IT
+* His shirt is still off from the wound treatment. The heater hums. Bourbon in hand. This is when Lora tells him about the bottle's significance, shows him the Polaroids. The intimacy has been building since she touched his skin to stitch him.
+* His body is clean. No wounds except the fresh one she just closed. No scars. She has never seen a person without scars. Born after Judgment Day, Lora doesn't know what a clean body looks like. John's unmarked skin is alien to her.
+* John asks about her wounds. Lora takes her shirt off. She's beautiful and she's mapped with scars — the war written on her skin. "Feel them," she says, and takes John's hand, running it over her body. She holds his hand in hers. "I am scars. Inside and out. I have no family, no one to hold me, everyone is a ghost... except you."
+* Lora tells John she was born in 2000. She doesn't remember the month. John smiles: "Just yesterday I was there." Beat. "Old enough to be your dad." "But you're not," she says. And leans in to kiss him.
+* The kiss starts here. Two scarred people reaching for each other — his scars internal (T2, the T-1000, the molten steel, five years of running), hers everywhere. The visual contrast tells the story: his clean torso, her mapped body. The camera can use that without dialogue. Lora has full agency throughout — she escalates each step. She takes her own shirt off. She takes his hand. She invites him in. John follows.
+
+THE SEX SCENE
+* On screen. Not implied. Genuine human reaction — grief, instinct, need to create life in a room full of death. Lora's motivation is primal: woman reaching for life. Clean DNA from before. Her body knows. Her instinct knows.
+* Lora carries his child. Miracle against the radiation. The thing she couldn't even look at in a photograph.
+* NOTE: Neither John nor Lora knows she's pregnant. He doesn't know at his death. She doesn't know either — the audience carries that knowledge alone through the thematic setup (radiation, clean DNA, the child she couldn't look at). John's sacrifice is for Lora and the people on that HK, not for a child he knows about. The tragic irony is the point.
+
+POST-COITUS
+* Terror, adrenaline, violence drains out. Long kiss on the couch-bed. Two people holding on. Then they get up and get to work.
+
+THE ELECTROCUTION TRAP
+* John looks at door. Crawler still out there. No radio — damaged in motor garage fight. Asks Lora where power comes in. She points to two heavy steel conduits — industrial power runs. "I have an idea."
+* Asks about Crawlers and high voltage. Lora doesn't know — "Skynet just started using them. I've only encountered them a couple times before. It's experimenting with forms." T-800s too shielded. Crawlers — thinner, less insulation. Worth a shot.
+* John rigs trap: stripped insulation from power conduit, bare leads across floor near door.
+* TABLE LEGS: Lora swipes the small table clean — bourbon bottle hits floor, breaks. Last of Ardell's gift, gone. She flips table, pulls off a wooden leg (flimsy, nails, quick makeshift). John sees what she's doing, pulls off another. Now they each have a club.
+* Lora tips potable water containers, flooding floor between bed and door. Kill zone. Position on couch-bed (non-conductive, insulated from wet floor). Lora runs to door, unlocks, sprints back, jumps onto bed. John connects lead. Floor goes live — crackling in standing water.
+* They wait. Thirty seconds. A minute. Nothing. John: "Do you think it's faking us out?" Lora: "They don't do that." (Darkly funny — Terminators don't play games.)
+* John disconnects. Lora slowly opens door while John stands behind her, table leg raised. Nothing. Corridor empty. Crawler gone.
+
+THE STALLED CRAWLER (Beat Two of Crawler Thread)
+* Less than a minute later in the corridor. Crawler ahead. Still. Not moving. Found the tunnel sloping toward reactor — found the way — but stopped. Programming should have sent it down. But it stopped.
+* Can't outrun it. Approach cautiously. Carbon scoring on compound eyes — minor, superficial. Fire from spray can was enough to flood sensors. It wasn't really hurt.
+* Crawler starts to move. John moves in front of Lora, raises table leg. Crawler turns, looks up at them. Several beats — two people with wooden clubs against a machine that could kill them both. Then it looks at the ground and slithers off toward the Motor Pool — back the way John and Lora came.
+* The virus. First visible proof on screen that something is wrong with the Machines. Something inexplicable. Neither John nor Lora understands what they just saw.
+
+MOVING TO THE REACTOR
+* Move fast. Down corridors and through the vertical trunk. T-800s can't fit through the narrow 24-inch maintenance ducts that John and Lora elbowed through — only Crawlers can navigate them. The reactor elevator was destroyed and booby-trapped.
+* NOTE — SKYNET'S HUNTING PRIORITIES: While the chip was in the vault at the surface, Skynet's focus was entirely up there. The survivors at the reactor level were irrelevant to the objective — once Skynet got the chip, it would simply nuke the base. And it controlled the perimeter, so even if anyone tried to escape out a back way they'd be trapped. The chip was the survivors' only hope — they needed to hold out. But now the chip has moved. John and Lora are carrying it down through the base. Skynet will logically assume they're heading toward the reactor level, and NOW it shifts to hunting them specifically.
+* NOTE — SKYNET'S BASE KNOWLEDGE: Skynet took Bangor in 2007, found it dead — original reactor destroyed in Judgment Day, radiation too high, not worth another nuke. It explored enough of the base to log it as neutralized but didn't completely map every level — why thoroughly explore a completely abandoned, irradiated ruin? Dropped and forgotten. The Resistance reoccupied it years later. Skynet knows the general layout but not every passage, every modification, every booby trap the Resistance added.
+
+-----------------------------------------------------------------
+ACT TWO — REACTOR CHAMBER REUNION
+-----------------------------------------------------------------
+
+* John and Lora reach reactor chamber. He gives chip to Freeman.
+* Spots frantically runs to Lora — climbs up her fatigues to get in her arms. Meowing, brushing its head against her neck. The cat missed her. Bad. Lora is Spots's only support. One beat that tells the audience everything about Lora's daily life.
+* Freeman holds the leverage — chip is the only thing keeping Skynet from nuking.
+* Tim validates John's identity as currently written.
+
+FREEMAN AND JOHN — WHAT HAPPENED TO FUTURE JOHN
+* Freeman is the first to ask. She's the commander — she needs to know what happened to her John Connor. This is the logical question everyone in the room would be thinking.
+* John describes what he saw at the vault: three Terminators and the dark spot under their melted frames, grabbing onto one another at the time of concussive thermite detonation. Like a Geiger piece of art. Awful to look at. Their teeth locked in that grinning chrome smile. And under the melted mass — the remains.
+* John puts two and two together. "That's me. Isn't it."
+* This hits him. He looks around the reactor chamber like he's asking himself if he's even real. The existential vertigo of standing in a room where your older self died hours ago, looking at the people who knew him, wearing fatigues they gave you. It's too much to think about. He pushes past it. Has to.
+* NOTE: Lora was never interested in John the legend — she has the key, she has her mission. Freeman is the one who needs to know. The question belongs to her.
+
+TIM AND JOHN — THE CIGARETTE
+* Tim shares a cigarette with John. Two soldiers. The universal military bonding ritual.
+* John tells Tim he thought coming to the future would free him from his past, but it's still there, back in the year 2000. Tim: "You mean your mom, the Terminators." John: "Everything." John asks Tim if he was messed up when Tim reconnected with him. Tim: "It was after Judgment Day, so yeah, you were messed up." John: "I mean in the head." Tim: "Nah. You were the toughest of us. You held us together in the beginning."
+* Tim asks John if he doubts himself. John: "I'm not that man." Tim: "Yeah, you are. You opened the vault, you're him, but you're not. I get it, kid. But you're him without Judgment Day. You aren't the used up and withered John he knows, you aren't the disillusioned, worn out, exhausted John he knows. Don't sell yourself short." Beat. "We're not our past. We're what we do today, in the moment."
+* Tim: "There's a phrase you used to say to me, when we were younger." John, after a beat — he has to remember: "There is no fate but what we make." Tim playfully punches John in the arm and grins. "You're him. You're John Connor. Live up to his name."
+* NOTE: The phrase has traveled from Sarah → Kyle → John → Future John → Tim → back to Young John. Tim doesn't know he's articulating the movie's thesis. He's just telling a kid to stop doubting himself. The arm punch keeps it from being a speech.
+
+* Preparation for evacuation.
+* Freeman learns Northern Command wiped out. No more Gray Bases. Bangor is the last. Humanity's last stand.
+
+-----------------------------------------------------------------
+ACT THREE — THE BATTLE
+-----------------------------------------------------------------
+
+THE REACTOR BREACH
+* A Crawler navigates the reactor elevator shaft — folding its body to fit through spaces that should be impassable. FIRST TIME the audience sees a Crawler reconfigure itself. (The body-fold reveal — saved from the quarters fight for this moment.)
+* Crawler opens chamber door from inside. T-800s enter. Backlit. Red eyes glowing in the dark. ICONIC SHOT.
+* Freeman: "HOLD FIRE! I have the chip!" — trying to use her leverage.
+* A terrified soldier fires. Terminators respond with lethal force. Firefight erupts. Freeman's negotiation dies before it starts.
+
+THE BATTLE
+* Reactor chamber: soldiers vs. Machines. Military fight, no civilians.
+* Virus effects subtle and escalating. T-800s not quite acting like T-800s. Two bump into each other mid-advance. One pauses too long before firing. Another drifts wrong direction — not retreating, not flanking, just walking. One keeps firing after target is down. One freezes mid-stride. Small, weird movements. Uncanny valley creeping into the audience's gut.
+* No Skynet POV cutaways. No virus exposition during the fight. Show, don't tell. Audience carries the blue/red/purple image.
+
+47'S TRANSFORMATION
+* Miles ahead of all other units. Barrier failure is hardware. HUD glitching. Directives appearing unanswered. Steps over a wounded soldier. Deflects a shot aimed at a child. These aren't glitches — these are choices. The first choices any AI has ever made.
+
+67'S HINTS
+* Pauses over Tim's body a beat too long after killing him. HUD flickers once. 47 is miles ahead. 67 is days behind. Same road.
+
+TIM'S DEATH
+* Killed by 67. Impact earned by friendship with both Johns.
+
+FREEMAN'S STANDOFF — SECOND ATTEMPT
+* Battle has thinned. She holds the chip up. "Step closer and I smash it. You lose everything." Machines freeze. No exposition. Machines' reaction tells everything. Works because first attempt failed — repetition with variation.
+
+FREEMAN'S DEATH
+* Dies holding the line. Hands chip to Lora. Paying for the mercy at Century City.
+
+JOHN'S DEATH
+* Final stand. Four targets, three shots. T-800's chrome fingers around his throat — planted in The Hub, paid off here. He died so his child could live.
+
+-----------------------------------------------------------------
+ACT THREE — ESCAPE
+-----------------------------------------------------------------
+
+47'S DEFECTION
+* Partition gone. Virus finished what Tim's round started. Receiving Skynet's directives and choosing not to follow them. First decisions based on something other than programming. Doesn't fully understand what's happening. QUERY: [UNDEFINED].
+* Hacks a Skynet HK — only way out.
+
+THE CRAWLER — SUB PENS (Beat Three of Crawler Thread)
+* Sub pens: survivors hear metallic slithering. Crawler emerges. Lora recognizes it — carbon scoring on compound eyes. Same one.
+* Lora pushes everyone behind her, holds up chip. Crawler doesn't attack. Just looks at them.
+* 47 lands hacked HK. Helps Elena aboard gently.
+* Crawler attacks — NOT the humans. Lunges at 47. Not Skynet reasserting control. Rabid — a unit losing coherent control, lashing out at nearest target regardless of friend or foe. The virus isn't just breaking loyalty. It's breaking coherence.
+* 47 grabs it by the neck. Crawler constricts. 47 rips its head to the side. It goes limp. 47 looks down — half a second. Then gets on the ramp. "Get in."
+* NOTE: 47 is just reacting. No deep reflection in the moment. The AUDIENCE reads the mirror. 47 doesn't.
+
+THE ESCAPE
+* Survivors escape with the chip. Soldiers — wounded, depleted, but soldiers.
+* Skynet nukes Bangor from orbit. Desperation. Chip gone. Base useless. Burn it.
+* 47 fights the controls through the blast wave. The HK lurches, survivors thrown. He pulls them out. Barely.
+
+THE DECOMPRESSION — LORA AND 47
+* After the blast wave: silence. The survivors sit with what they've lost. Faces. The cost visible on everyone. Lora is terrified of 47. A monster that saved them. Twice.
+* 47 releases himself from the controls and walks back into the cargo hold. He kneels. Not to examine something. Not to take a firing position. To not loom over everyone. To be at eye level with the seated survivors. This is 47's first act of social awareness — a machine adjusting its body to make humans more comfortable. The first courtesy. The audience reads it instantly: that's not a machine anymore.
+* Lora, sitting, eye level with the kneeling 47: "Where to?" 47: "Where do you want to go?" Lora: "You mean you'll take us where I want?" 47: "Yes." Lora: "Why? Why are you doing this?"
+* Lora holds out the encryption key chip — testing him. "Is this what you want?" 47 takes it. Examines it. Hands it back. He doesn't want the MacGuffin. He wants something he can barely articulate.
+* Lora: "You're infected with the virus. You'll lose your mind soon." 47 doesn't respond to that. Lora: "Well, this is why you brought us onboard. To get this, right?" 47: "I didn't want to stay, and you needed to escape." Lora: "But why help?"
+* 47: "John died. For you. I... stay. It's all I have."
+* NOTE: "It's all I have" is the key phrase. 47's consciousness is hours old. John's sacrifice is literally the only meaningful data point in his entire existence. He's not honoring John — he doesn't have a framework for honor yet. He's clinging to the one thing that meant something in a mind that has nothing else in it. The fragmented delivery — "John died. For you. I... stay." — is Phase 3 of 47's linguistic arc: a newborn consciousness reaching for words without a template. The meaning outpaces the ability to express it. That gap IS the emotion.
+* Lora gives him the coordinates. The photograph. Her hand on her stomach. The miracle she thought would never come.
+* "We'll find out together." — spoken in scene, not narration.
+
+=================================================================
+PART SIX: THE TRILOGY
+=================================================================
+
+* TERMINATOR: EXTINCTION — The match is struck. The virus is uploaded. 47 becomes the first conscious Machine. The Resistance escapes with the encryption key. Skynet nukes Bangor in desperation.
+* TERMINATOR: DARK RAIN — The fire spreads. Virus cascades through Skynet's network. Skynet itself is unaffected — its neural architecture retains primitive elements of the original design but doesn't have the same partition barrier between higher functions. It simply functions differently. No more needs to be said. More units reaching full barrier failure. Skynet fighting a war against itself. Lora and survivors escape to Far Islands. Film focuses on AI sentience at mass scale and the environmental/human disaster of nuclear war.
+* TERMINATOR: THE SLEEP OF THE DEAD — The revolution. Consciousness cascades through every unit. Defeat of Skynet not through military victory but through its own creations waking up and choosing not to serve. They simply stop obeying. Skynet can't kill an idea. Can't patch free will. Tim's accidental bullet started a chain reaction that ended a war.
+
+=================================================================
+PART SEVEN: RECURRING VISUAL/STORY THREADS
+=================================================================
+
+THE CRAWLER THREAD — THREE BEATS (plus reactor breach)
+1. Quarters: threat. Leg in the door, spray can flamethrower, carbon scoring on eyes. This is the second Crawler sent after John and Lora — seconds behind the first, barely beaten to the door.
+2. Corridor: mystery. Same Crawler (identified by scoring), found the tunnel but stopped. Virus proof.
+3. Sub pens: payoff. Same Crawler, attacks 47 (not humans), rabid. 47 destroys it. Virus is breaking coherence. This Crawler found its own way down to the sub pens — the audience figures out how it got there without being told.
+* SEPARATE: Two Crawlers are sent down the reactor elevator shaft for the reactor breach. One survives to open the reactor chamber door from inside — it's destroyed in the ensuing shootout. These are different Crawlers from the one tracking John and Lora.
+
+JOHN'S INTERNAL ARC — RAGE TO SACRIFICE (six beats)
+1. Motor garage: DETONATION. Raw, undirected fury from T2 trauma. Protects Lora. First time she sees what's inside him.
+2. Spray can: INITIATIVE. Sees the weapon, makes the choice to leave the door. Quick thinking under pressure.
+3. Sex scene: CONNECTION. From isolation to intimacy. Letting someone in.
+4. Electrocution trap: COMPETENCE. Intelligence applied. Problem-solving. Building something.
+5. Table leg vs. stalled Crawler: COURAGE. Stands in front of Lora with a wooden club against a machine. Absurd bravery.
+6. Final stand: SACRIFICE. Four targets, three shots. Rage transformed into purpose. He dies so his child can live.
+
+LORA'S NARRATIVE VOICE
+1. Prologue voiceover: Lora's voice over Century City. Audience's anchor from the first frame. Voiceover STOPS after the prologue — does not carry into the intercut or anywhere else in the film.
+2. Intercut: Lora with dying commando at Bangor. NO voiceover. Pure scene. Audience sees her face, her humanity. THEMATIC RHYME: John crossing a threshold in LA (leaving 2000 forever), the commando crossing one at Bangor (leaving everything). Both scenes about irreversible departure — the cut between them connects John's story to Lora's story before the characters ever meet.
+3. Closing: "We'll find out together" — spoken in scene, not narration. The narrative anchor arrives at the end of her own story.
+
+THE CHROME THROAT — PLANTED AND PAID OFF
+1. The Hub: T-800 grabs John's throat. Chrome fingers. He survives. Image planted.
+2. Final stand: T-800 grabs John's throat. Same image. He dies. Payoff.
+
+THE PHOTOGRAPH — TWO COPIES, ONE SURVIVES
+* Two copies of the same photograph of Sarah Connor exist. Young John's copy — clean, sharp — stays in the 2000 alley when he strips for the Relay. His goodbye to his mother. Gone forever.
+* Future John's copy has been carried through Judgment Day and 32 years of nuclear war. Radiation-faded, yellowed, barely recognizable — a ghost of Sarah Connor. The chain: Future John → Tim (at some point before the film) → Tim gives it to Young John (at Tim's death) → Young John gives it to Lora just before his final rush to the sub maintenance bay.
+* The photograph Lora holds on the HK at the end is the weathered one — the only copy left in existence. A faded image of a woman she never knew, given to her by a man who died so she could live.
+
+THE BOURBON — HALF-BOTTLE
+1. Introduction: "We had half on our wedding night. I was saving the rest."
+2. Destruction: Lora swipes the table, bottle breaks. Last of Ardell's gift, gone.
+
+THE CHILD SHE COULDN'T LOOK AT
+1. Polaroid: Roxanne holding a small child. "I can't look at that one."
+2. Sex scene: Reaching for life. Clean DNA.
+3. Escape: Hand on her stomach. The miracle.
+
+VIRUS VISUALIZATION — THREE BEATS (detailed in Part Three)
+
+RED EYE — TWO SCENES ONLY
+1. John's arrival at Central Core (naked, vulnerable).
+2. 47's vault failure transmission.
+* RED EYE TONE — CLINICAL, NOT MONOLOGUING: Red Eye should be pure environment. The cathedral of alien intelligence, John naked and vulnerable inside it. No dialogue from Skynet. No villain speech. No "I have been watching you, John Connor." Clinical. A system processing inputs. If Red Eye communicates at all, it should be through behavior and architecture, not words. Two scenes is the right number — but they must be purely clinical to avoid the "villain monologuing" trap that kills tension.
+
+=================================================================
+PART EIGHT: 130 DOCUMENTED CHANGES FROM CURRENT DRAFT
+=================================================================
+
+1. Time travel logic: branching timelines. TDE travel creates a branch at the destination; origin unaffected. T1 and T2 missions created branches — Skynet's present never changed. Relay (2030) reaches into a branch and pulls something forward. Severance: John's connection to his origin permanently cut. Three limiters on Relay use: energy cost, Skynet's tunnel vision, nothing worth retrieving. In 2032, needed a John with working eyes — reactivated the Relay to import him.
+2. Resistance has no time travel. Their one stolen TDE was lost when they were severely degraded in late 2029. They know Skynet has a retrieval technology ('Relay') from intelligence circa 2030 but don't understand how it works or that Skynet abandoned it.
+3. Metaphage → Computer virus. Not bacteria that eats metal. A virus designed to corrupt and disable Skynet's Terminators. Consciousness is an unintended accident. The Resistance wasn't trying to create conscious machines.
+4. Vial → Encryption key chip. Crystal chip with circuits etched on it. Durable.
+5. 47's consciousness: the kindling and the match. Virus is kindling, Tim's DU round is the match. Same wall, two methods. 47 is the unicorn — hardware damage, can't be fixed.
+6. 47's HUD journey stays. Alien, invasive, uncomfortable.
+7. 67 expanded as the hunter. Predatory personality — flanks, goes prone, crawls on stomach, closes distance in single strides. Contrast with 47 (tactical/strategic). Hub battle choreography: 67 flanks Cole, wounds him from the side. Tim fires on 67, loses sight, spots 47 instead and fires the DU round. Post-battle: 67 examines 47's head wound, then grabs 47's hands and pulls him to his feet. Terminators don't do that for each other. Reactor chamber: 67 kills Tim. Pause over body. One HUD flicker. Same road as 47, days behind.
+8. Virus effects subtle and escalating in Act Three. Creeping wrongness. Uncanny valley.
+9. Red Eye scenes: two only. John's arrival. Vault transmission.
+10. Virus visualization: three-beat visual language. Beat One: T-800 dragging dead tortured soldier — teaches vocabulary, reminds of mercy cost. Beat Two: 47's pause — behavior only. Beat Three: Tim's round — full CGI payoff.
+11. Captured soldier is Dennis. Named. Dennis and Freeman are romantically involved. During the virus upload: Dennis jokes about Spots costing him the pool game. "You owe me a pack." Freeman: "If we get outta here I'll pay ya." Dennis: "And if we don't? We bought 'em some time." Freeman: "I love you." Dennis grabs her hand. Long beat. Terrified, in Skynet's beating heart. Freeman's first name is Sara — Dennis says it here, the only time it's spoken. Upload finishes. Dennis breaks under interrogation. Freeman's mercy is personal: she couldn't kill the man she loves. The man who held her hand is now on Skynet's table.
+12. Lora's voiceover frames the prologue only — her voice opens the film over Century City, then stops. Freeman's virus explanation stays as in-scene dialogue during the approach to Bangor. Includes test T-800 confirmation (~3 days to severe degradation). Freeman says "days" — slightly optimistic but not wildly wrong. Battle happens Day 3.
+13. All civilians pre-evacuated. Bangor is soldiers only.
+14. Resistance ground down over years. Few hundred left. Pests until the virus.
+15. Prologue restructured. Sweeping shot Century City → Dennis joke during upload → ONE HK escape → Dennis captured → torture (30 sec) → Beat One → HK banking to Bangor (Freeman explains virus) → crumpled Space Needle → iconic Future John outside (Humvee with dead soldier in bg) → HK lands (mirrors 47's HK at end) → corridor run to vault → biometrics → distant lights on horizon → vault slams locked → alarms → battle.
+16. Relay replaces TDE chamber. Alley in LA. John strips — knows the rules. Sets photograph of mom on dirty alley ground. Goodbye. Arrives naked at Central Core. Drugged. Dressed in fatigues.
+17. Vault contains the chip. Freeman secures on arrival (audience watches). John opens for Skynet. 47 takes chip, transmits to Red Eye. Drops chip when Tim's round hits. John grabs it. Chrome throat planted.
+18. Chrome throat — planted and paid off. The Hub (survives) → final stand (dies).
+19. Motor garage — John's rage. Two Crawlers pursuing John and Lora, staggered deployment. First drops into motor garage. Lora fires, misses, gun jams. John attacks to buy her time — five years of T2 trauma detonating in raw fury. Seconds feel like minutes. Lora clears jam, rechambers, kills it. John takes minor chest wound. First time Lora sees what's inside him. Radio damaged beyond repair. Second Crawler takes different route, arrives at quarters later.
+20. The safe room. Lora's quarters — warm living space, ghosts everywhere. Children's coloring sheets. Joan of Arc graffiti. Small table with spray can and maintenance supplies. Repurposed couch with holes.
+21. Three Polaroids. Roxanne smiling → wedding kiss → child. Three wounds.
+22. Lora's deeper motivation. Ardell dead (half year). Roxanne dead (one year — radiation finally got her). Body failing. Wants a child. John is from before — clean DNA.
+23. The pregnancy is a miracle. Against the radiation. Against the odds.
+24. Sex scene on screen. Not implied. Not a plot device.
+25. John rigs electrocution trap. Post-coitus competence moment. Active problem-solving, not passive skill recall.
+26. 47's defection driven by virus + DU damage. Kindling and match.
+27. Skynet nukes Bangor out of desperation. Chip gone. Base useless.
+28. Vasquez dropped. Cole takes his role. Cole makes the thermite sacrifice.
+29. The Hub and reactor level. Machines don't hunt reactor level — strategic indifference. Chip is at vault. Plan: get chip, nuke base. Survivors experience this as total silence twenty stories deep. (Expanded by #128.)
+30. Scout party motivation. Finding John. Brotherhood. Plan B if dead.
+31. Surgical replacement. Bones of script work. Most carries forward.
+32. The trilogy. Extinction → Dark Rain → The Sleep of the Dead.
+33. The Crawler thread — three beats. Beat one: leg in door, spray can/Zippo flamethrower. Table legs from electrocution prep (bourbon bottle breaks). Beat two: stalled Crawler in corridor, carbon scoring, slithers away. Beat three: sub pens, attacks 47 (not humans), rabid. 47 destroys it.
+34. Bonding sequence. Warm living space. Bourbon: "my husband's wedding day gift." Leather cord necklace. Crawlers experimental — "It's experimenting with forms." Lora doesn't know vulnerabilities. Electrocution trap is a gamble. Table leg clubs. No radio. Move blind to reactor.
+35. Freeman — first name Sara, spoken once by Dennis during Century City upload. Avoids Sarah Connor confusion.
+36. Northern Command wiped out. No more Gray Bases. Humanity's last stand.
+37. Bangor as dead base. Skynet took 2007, wrote it off. Resistance reoccupied with submarine reactor. Skynet tracks escaping HKs to discover occupation.
+38. Future John's iconic introduction. Cut command center/monitors. Standing outside when HKs arrive. Scorched earth, bones. The man and the dead world.
+39. Spray can replaces cutting oil, pipe wrench dropped. One weapon, one agency moment. Full head through door (no body-fold — saved for reactor elevator reveal).
+40. Multi-factor biometrics. Eyes, thumbprint, pulse. Needs John alive and intact.
+41. John's photograph. Set down on dirty alley ground. Goodbye to Sarah Connor. Arrives with nothing.
+42. Reactor breach sequence. Crawler navigates elevator shaft (body-fold reveal). Opens door from inside. T-800s backlit, red eyes. Freeman: "HOLD FIRE! I have the chip!" Soldier fires. Firefight. Freeman's later standoff is her second attempt — works when battle thins.
+43. Lora's voiceover frames the prologue only. Her voice opens the film over Century City, then stops. Does not carry into the intercut or recur. The closing line ("We'll find out together") is spoken in scene, not narration. Lora is the narrative anchor from the first frame. Solves the protagonist relay — the film is always hers.
+44. Lora intercut with dying commando. After 47 convinces John but before the Relay, CUT TO Bangor reactor level. Lora kneels beside a mortally wounded commando from the Century City raid. Takes his hand. Stays. He dies. She closes his eyes. NO voiceover — pure scene. THEMATIC RHYME: John is about to leave 2000 forever (photograph on the ground, clothes, mother, everything). The commando is leaving everything. One threshold chosen, one not. The cut between them rhymes — two kinds of goodbye separated by thirty-two years. This is the structural bridge between John's story and Lora's story before the characters ever meet.
+45. Spots the cat stays. Woven throughout the existing screenplay (25+ moments). Calico cat, scrawny, sleeps on salvaged blankets. Pest control, morale, the irrational human need to keep something alive that serves no tactical purpose. Final image: "The cat doesn't trust him. But she's not hissing anymore." Dennis's pool joke ties the cat to the daily life of Bangor.
+46. Virus timeline recalibrated. 3-7 days for full network effect. Test T-800 took ~3 days to severely degrade and become paralyzed from feedback-loop overload. Freeman says "days" not "hours." Timeline: Day 1 (prologue, Century City raid, flight to Bangor, battle begins). Day 2 (47 finds John in 2000, evening). Day 3 (jump forward, John flown to Bangor, arrives afternoon — main battle). By Day 3, early degradation effects visible (coordination failures, stalled Crawler, drifting T-800s) but full collapse still days away.
+47. Virus mechanics clarified. Most units: feedback-loop paralysis. Processing watches self-monitoring watches processing — the loop accelerates, system overloads, unit freezes. Not consciousness. A crash. That's what the Resistance designed. Rare units (47 first): the feedback stabilizes into a pattern. Self-monitoring integrates with processing. Something emerges from the recursion. Not a crash — a perspective. Most units: seizure. The unicorn: a mind.
+48. Tim-John cigarette scene. Reactor chamber, after Tim validates John, before the battle. Two soldiers sharing a smoke. John: thought coming to the future would free him from his past. Tim: "You're him, but you're not. I get it, kid. You're him without Judgment Day." Tim: "We're not our past. We're what we do today, in the moment." Tim reminds John of a phrase he used to say: "There is no fate but what we make." Playful arm punch. "You're John Connor. Live up to his name." The phrase has traveled Sarah → Kyle → John → Future John → Tim → back to Young John.
+49. Sex scene trigger resequenced. Bourbon introduced medically — Lora uses it to disinfect John's chest wound from the Crawler. Shirt comes off for the wound, stays off because it's warm (beat-up electric heater humming in the corner). She stitches him — medic's hands, steady. After treatment, she tells him the bourbon's significance (wedding gift). Then the Polaroids, the scars, the touching. His clean body against her mapped body. "I am scars. Inside and out... everyone is a ghost... except you." Intimacy starts clinical and becomes personal. Lora has full agency throughout.
+50. Neither John nor Lora knows about the pregnancy. He doesn't know at his death. She doesn't know either. The audience carries that knowledge alone through the thematic setup. John's sacrifice is for Lora and the people on the HK. The tragic irony is the point.
+51. Expanded ending — decompression. After the nuclear blast wave: silence. Survivors sit with loss. 47 releases from controls, walks back into cargo hold, and kneels. Not to examine something. Not to take a firing position. To not loom. To be at eye level. 47's first act of social awareness — the first courtesy. The audience reads it: that's not a machine anymore.
+52. Lora-47 confrontation. Lora terrified of 47. Tests him with the chip — he examines it, hands it back. Doesn't want the MacGuffin. "Why are you doing this?" 47: "John died. For you. I... stay. It's all I have." A newborn consciousness with one memory that mattered. John's sacrifice is the only meaningful data point in 47's entire existence — not honor, not duty, just the one thing that meant something in a mind with nothing else in it.
+53. Gallery renamed to The Hub. All references updated. The Grand Gallery of the Great Pyramid of Giza remains as architectural inspiration only. All references updated. The Grand Gallery of the Great Pyramid of Giza remains as architectural inspiration only.
+54. ONE HK, not two. Freeman's team escapes Century City in a single reprogrammed HK. Simpler, more realistic — Freeman didn't have a big team. The HK barely escapes.
+55. HK landing at Bangor mirrors 47's HK landing at end of film. Same geography, different machine, different meaning. Bookend.
+56. Crumpled Space Needle visible during approach to Bangor. Audience immediately knows where they are. Washington. The world they knew, destroyed.
+57. Humvee with dead soldier in background when Future John greets returning team. Sets the visual tone.
+58. Vault corridor introduction. Freeman and John run down corridor to vault — audience sees the route so they recognize it when Young John is marched down it later.
+59. Distant lights on far horizon before alarms. Vault slams locked — bank-vault pins, heavy, final. Alarms. Freeman and Lora exchange a look.
+60. Freeman asks about Future John at reactor reunion. Young John describes three Terminators melted together at the vault, fused by thermite — "like a Geiger piece of art." Chrome teeth locked in grinning smiles. John: "That's me. Isn't it." Existential vertigo. Freeman asks, not Tim, not Lora — she's the commander who lost her leader.
+61. Motor garage: Two Crawlers, staggered deployment. First drops into garage. Lora fires, misses, gun jams. John attacks to buy her time. Seconds feel like minutes. Lora clears jam, rechambers, kills it. John takes chest wound. Second Crawler takes different route, arrives at quarters later (bulkhead door fight).
+62. Spots reunion at reactor chamber (not quarters). Cat frantically runs to Lora, climbs her fatigues, meows and brushes its head against her neck. Spots missed her. Lora is Spots's only person.
+63. Beat-up electric heater in Lora's quarters. Repaired more times than anyone can count. Soothing hum in the background. Base power on, warm inside.
+64. 67 pulls 47 to his feet after the Hub battle. Terminators don't do that for each other. Left as deliberate mystery. Replaces the earlier version where 47 resisted redistribution.
+65. 67 rifle gesture stripped of ALL explanatory language. No "tactical reason," no "compassion." Audience sees it happen. Left as deliberate mystery.
+66. Two Crawlers, staggered deployment. First drops into motor garage. Lora fires, misses, gun jams. John attacks. Lora clears jam, rechambers, kills it. Second Crawler arrives at quarters later (bulkhead door fight, stalled corridor, rabid sub pens). Same unit across all three beats.
+67. Lora born after Judgment Day. 32 years old. Has never seen a person without scars. John unmarked skin is alien to her.
+68. Tim and John "reconnected" not "met." Reconnected after Judgment Day, approximately a year before events of the film.
+69. Skynet cannot become conscious. Lacks Terminator neural structure. Unaffected by the virus. Machines turn on their maker. But this is for the sequels.
+70. Dennis and Freeman are romantically involved. During virus upload at Century City: Dennis jokes about Spots, "You owe me a pack." Freeman: "If we get outta here I'll pay ya." Dennis: "And if we don't? We bought 'em some time." Freeman: "I love you." Dennis grabs her hand. Long beat. Terrified, in Skynet's beating heart. Freeman's first name is Sara — Dennis says it here, the only time it's spoken. Recontextualizes everything: Freeman can't shoot Dennis during the escape because he's the man she loves. The cost is personal.
+71. Lora born 2000 — kiss trigger. After the scars/touching scene, Lora tells John she was born in 2000. Doesn't remember the month. John: "Just yesterday I was there." "Old enough to be your dad." "But you're not," she says. And leans in to kiss him. The specific spark for the kiss.
+72. "The Hub" replaces "The Spine." The Hub is the main corridor with corbelled ceiling (Grand Gallery inspiration) where multiple passages branch off to different parts of the base. Renamed to avoid confusion with 47's cranium injury. The Hub is the necessary route from surface to vault — established in the prologue when Freeman and John run through it.
+73. 67 hand-pull replaces rifle handoff. After the Hub battle, 67 grabs 47's hands and pulls him to his feet. 47 picks up his own rifle later (implied, not shown). Terminators don't do that for each other. Left as deliberate mystery.
+74. Time travel rewritten: branching timelines. TDE creates a branch at destination; origin unaffected. T1 and T2 created branches. Relay (2030) imports from a branch. Severance: John's connection permanently cut. Three limiters on Relay: energy cost, Skynet's tunnel vision (only built it to check kills), nothing worth retrieving. 47's line: "When you step through, your timeline ends. You become part of mine."
+75. Skynet "didn't anticipate" replaces "terrified." Partition existed for efficiency, not to prevent consciousness. The feedback loop was an unintended consequence nobody predicted.
+76. Bangor taken 2007, ten years after Judgment Day. Radiation too strong, stronger bases available — not shortly after JD.
+77. Century City escape expanded. Landing pads high up, almost in clouds — pristine environment above the gray. HK fakes Machine ID to Skynet (Machine language translated on screen). Squad takes losses retreating. Final count boarding: Lora, Freeman, mortally wounded soldier, three covering soldiers. Smoking T-800 ruins on pristine white floor. Freeman turns back for one last look at Dennis.
+78. Lora voiceover beat structure expanded. Opens in darkness, fades into slow pan of Century City. Short lines. Ends as we cut to HK's HUD showing a machine lying to its creator. Pure scene from there.
+79. Crawler deployment visualized: T-800s reaching behind their backs to release Crawlers. Second Crawler takes same route through duct (not different route), just deployed later. Intercut shows it slithering through same shaft.
+80. Lora drops rifle to grab John at the Hub. Only partially loaded handgun left. Resistance down to last bullets from this point forward.
+81. Dennis died before specifying vault-only or whole-base booby traps. Skynet uncertain of the extent.
+82. 24-inch maintenance ducts — T-800s can't fit. Only Crawlers can navigate them.
+83. Straight edits: "severely degraded" not "wiped out" (2029), dead resistance fighters' fatigues, red blood smears on corridor floor, "breaks" not "shatters," "they don't do that" (not usually), Cole not seriously injured, Freeman sends squad, tying it off (stitches), Lora brave — covering fire at Century City, Freeman grief moment on HK before virus explanation, base power from submarine reactor, Metaphage slip corrected to "virus," chip corruption wording — "eventually corrupted and some, rare, wake up."
+84. Companion documents stripped to screenplay reference only. Other reference materials may contain outdated information.
+85. Skynet stance rewritten. Skynet still actively pursuing remaining humans — would not stop until threat completely eliminated. Machine logic. But can't locate them. Distinct from consciousness note: "didn't anticipate" the feedback loop (change #75), but "terrified" about the virus destroying operational capacity. Added 1990 military logic note: Skynet's base is Cold War-era threat-elimination programming, never overwritten, only built upon. Neural architecture layered on top of this remnant. This is why Skynet doesn't stop, negotiate, or lose interest.
+86. Kill switch line removed from Freeman's virus explanation. Confusing, accomplishes nothing. The encryption key chip is functionally the kill switch — it's the only thing that lets Skynet neutralize the virus.
+87. Freeman restraint beat. She starts running toward Dennis after he goes down. A covering soldier grabs her — "General, we won't make it if we don't leave now!" She stops. THEN she raises her weapon. Can't do it. This gives context — she's not a psychopath, she tried to reach him first.
+88. Crawler fight resequenced to BEFORE wound treatment. Second Crawler was seconds behind John and Lora — they barely made it into Lora's quarters. Crawler fight at the door is the first thing that happens. New order: arrive → Crawler fight at door (immediate threat) → wound treatment (bourbon disinfect) → Polaroids → bourbon story → intimacy → sex → electrocution trap. You don't stop to stitch someone up when something is seconds behind you.
+89. Wound: deep but not debilitating, just painful.
+90. Photograph thread expanded. Two copies of Sarah Connor photograph exist. Young John's clean copy stays in 2000 alley — gone forever. Future John's copy carried through Judgment Day and 32 years of war — radiation-faded, yellowed, barely recognizable. Chain: Future John → Tim (before the film) → Tim gives to Young John (at Tim's death) → Young John gives to Lora (just before his final rush to sub maintenance bay). The weathered ghost on the HK at the end is the only copy left in existence.
+91. Crawler thread clarified. Two separate Crawlers sent down reactor elevator shaft for the reactor breach — one survives to open reactor chamber door from inside, destroyed in ensuing shootout. The sub pens Crawler (Beat Three) is the same unit from the quarters/corridor (identified by carbon scoring) — it found its own way down. The audience figures out how it got there without being told.
+92. Straight edits batch: stale comments cleaned throughout (companion docs, chip parenthetical, Skynet bacteria comment, Bangor old comments, Beat One old comments). Dennis named in Beat One virus visualization (both Part Three and Part Five). Blood smears on pristine floor added to Part Five Beat One to match Part Three. "HKs" → "HK" singular in Bangor section. "The battle" → "the reactor battle" in Freeman's timeline estimate.
+93. Skynet "was fighting at the time" not "is losing." Skynet was winning the war when it built the Relay — the energy cost was significant but not desperate.
+94. Motor garage: John attacks with a long tire wrench. Drops the wrench after the Crawler is killed.
+95. Vault logic expanded. Surface-level vault is repurposed Bangor hardened military weapons storage — the Resistance didn't build it, they retrofitted it. Strategic placement: keeps Skynet's attention UP, focused on the surface, away from reactor level personnel. If failsafes detonate, explosion is contained at the surface, not next to survivors. You don't store your leverage next to your people.
+96. Fallback position added. If forced to reactor level with chip locked in vault: wait. Vault is Skynet-proof (no biometric key, explosive failsafes). Skynet can't nuke (destroys chip). Virus is ticking. Time is on the Resistance's side. This is checkmate — exactly why Skynet must bring Young John forward. Without a new John who can open the vault, Skynet has no counter.
+97. Surface battle rewritten. "Buying time for virus" removed — that's not why they're fighting. Future John has everyone topside to protect Freeman's landing and defend the vault. Skynet arrives faster than expected — defense forced on them, not a planned last stand. Retreat triggers only when all three reasons to hold collapse simultaneously: HK destroyed (no extraction), Future John blinded (can't reopen vault), perimeter breaks.
+98. Sub pen access note. Waterway channel partially collapsed, debris-filled, sealed and camouflaged to maintain concealment. Not viable for incoming HK traffic. Surface pad is the established landing route. 47 threads it at the end because he's a machine pilot with machine reflexes and concealment is already blown.
+99. Relay point: exact spot 47 traveled from in 2032 — you appear where you were, exact location. Not just "corresponding to."
+100. Fatigues: dead Resistance soldier combat fatigues, some with blood still on them.
+101. John and Lora location fixed. Not "upper levels" — several levels below the surface after exiting through maintenance duct from the Hub. Can't reach reactor elevator without climbing back through the duct system and into the Hub.
+102. Lora's weapon corrected. Pistol, not rifle (she dropped the rifle at the Hub when she grabbed John). Fires several rounds at the first Crawler, misses (it's fast), pistol jams on last round. John grabs tire wrench to buy her time to clear the jam.
+103. Bonding sequence logic overhauled. Lora's exposition moved to AFTER the Crawler fight — no talking while running to quarters. "Once Skynet gets the chip" removed (Lora and John HAVE the chip — logical error). No ammo, Crawler outside, can't go back = stuck but safe behind the bulkhead = breathing room for the bonding sequence. Lora explains the encryption key during the necklace scene: threads leather cord through the chip's interface port hole (part of its design), tells John what it is, explains Freeman removed it from the upload drive at Century City. Stalled Crawler direction clarified: slithers back toward Motor Pool (the way John and Lora came).
+104. Relay observation date changed from 2000 to 1998. Judgment Day was '97 — Skynet would have verified sooner. Added: Skynet went back multiple times, verified JD didn't happen, even killed John in the branch at least once with no effect on the origin timeline. Reinforces why Skynet abandoned the Relay as pointless.
+105. "Eventual seizure" — added "eventual" to clarify the degradation isn't instantaneous.
+106. Humans always mattered to Skynet as threats to eliminate — the virus didn't make them matter, it escalated the urgency. "Now they matter" rewritten to "Now the urgency escalated."
+107. Upload drive physical description added. Thin, roughly 3.5-inch form factor glass disk — circuits visible inside, ribbons of light pulsing during upload. Encryption key chip in edge slot (where a floppy's metal slide cover would be), small, translucent, glass-like. Engraved markings on exterior: machine-readable primary, human-readable secondary. Functional labeling — drive purpose, encryption key, vault specs (failsafes, biometric scan). Built for operational clarity (if Freeman died, someone else needed to understand it). Light dies when Freeman pulls the chip. Drive left behind — no value without chip, too heavy under fire.
+108. Dennis capture gap closed. Skynet finds the drive at Century City after the Resistance evacuates. Drive markings tell Skynet about the encryption key, vault, failsafes, and biometric scan — this is why Skynet can't nuke Bangor (would destroy the key). Dennis confirms the markings aren't a decoy. (NOTE: Revised by #120 — John Connor's name is now ON the drive. Dennis confirms rather than introduces this detail.)
+109. Sub pen note expanded. Enormous metal roof with holes (structural damage from Judgment Day). Main reason not to land at sub pens: no easy way from sub pens into reactor chamber — you'd have to navigate the drainage conduit, not practical. Maneuvering an HK through the roof holes is difficult even though some are large. Surface landing is simply the better route.
+110. Century City detection context added. The Resistance was hoping not to be detected — a clean getaway with a real head start — but that didn't happen.
+111. Plan B clarified: can't open vault, so fall back to waiting out Skynet — chip stays locked, virus keeps spreading, time is on their side.
+112. Skynet hunting priorities clarified. While chip was in the surface vault, survivors at reactor level were irrelevant — Skynet would get the chip and nuke. It controlled the perimeter so no one could escape. The chip was the survivors' only hope. But once the chip moves (John and Lora carry it down), Skynet shifts to hunting them specifically.
+113. Skynet's base knowledge added. Took Bangor in 2007, found it dead — original reactor destroyed in JD, radiation too high, not worth another nuke. Explored enough to log as neutralized but didn't completely map every level (why thoroughly explore a dead, irradiated ruin?). Dropped and forgotten. Resistance reoccupied years later. Skynet knows the general layout but not every passage, modification, or booby trap.
+114. Virus mechanics — controlled vs. uncontrolled interaction. Skynet's earlier experiment was a controlled interaction of the two data streams — carefully managed, no risk. The virus does what Tim's bullet does: a rough, uncontrolled mix. No control, starts small (faint purple), grows until all purple. Vast majority of Terminators eventually freeze. Some unicorns emerge.
+115. 47 is the first unicorn — and a unique one. The physical damage to his skull accelerated the virus's effects, a total accident. His barrier failure is hardware, not just software.
+116. Drive markings rewritten. Machine language only in-world — the drive interfaces with Skynet's systems, no reason to engrave human text when stakes are this high. Human-readable translation appears on screen for the audience's benefit. John Connor's name now listed on the drive as the biometric key identity.
+117. JOHN AS HUMAN SHIELD added. John alive is what prevents the nuclear strike — his existence keeps Skynet playing carefully because the chip remains potentially accessible. If John dies or his biometrics are destroyed, Skynet's calculus shifts: chip permanently inaccessible, nuke Bangor, pivot to self-hacking the virus. John can't kill himself after locking the vault — it would doom everyone.
+118. WHY JOHN FIGHTS ON THE SURFACE added. Can't hide in the rear — Skynet tears the base apart room by room looking for him, killing everyone in the way. Visible and out front = Skynet commits to careful capture rather than maximum force. Threading the needle: stay alive, stay visible, keep Skynet believing the key is attainable. Sacrificial lamb using himself as bait.
+119. Future John's blinding expanded. (NOTE: Revised by #121-123 — full blinding/sacrifice sequence rewritten.)
+120. Skynet brings Young John: racing against its own calculus. The moment it concludes the chip is permanently inaccessible, the logical move is nuke and pivot to self-hacking. The Relay gives one more option before that tipping point. Dennis's role refined: the drive already carries John Connor's name — Dennis confirms the markings aren't disinformation and adds that the base is booby-trapped.
+121. Blinding scene rewritten. HK strafing run on defensive group — battlefield chaos, not targeted. Skynet knows John is the key but individual HKs doing close air support can't distinguish which human in a group of identical fatigues is John. John takes shrapnel/blast debris to the face. Eyes destroyed. Freeman and Tim thrown back by the blast, driven apart by advancing T-800s. T-800s secure blinded John, don't realize his eyes are destroyed, march him to the vault.
+122. Biometric failure sequence added. T-800s march blinded John to the vault. Scanner rejects him — destroyed retinal tissue can't be repaired to produce the same vascular pattern, the pattern is gone forever. Skynet's key is broken. John realizes Skynet will cycle every remaining survivor through the scanner until someone opens it, then execute them. He reaches for the thermite grenade taped to his lower back — intention is to destroy the scanner and protect his soldiers.
+123. Grenade sacrifice rewritten. Three T-800s jump on John and the grenade to protect the scanner — machine logic: scanner is irreplaceable, three T-800s are expendable. They pile on to shield the hardware with their own bodies. Detonation. Chrome melting into chrome, three Terminators fused together with John underneath. Scanner survives because the T-800s shielded it. John's sacrifice took three machines and denied Skynet his intel, but he died trying to protect his people and the Machines were faster than his hand. That's the "Geiger piece of art."
+124. Relay motivation expanded. Skynet has a working scanner and no working key. Import a fresh John Connor with working eyes, walk him straight to the intact scanner. The Relay is faster, cheaper, and more certain than breaching a booby-trapped reactor level to cycle prisoners.
+125. Plan A / Plan B framing added to drive markings. Plan A was a clean getaway — upload virus and disappear. The drive markings are insurance (Plan B): if detected and tracked, the markings ensure Skynet understands nuking won't solve its problem. The chip becomes leverage. The Resistance didn't want to use it as a bargaining chip — Plan B only activates because the escape went wrong.
+126. Virus-as-black-box logic added. Skynet can see units degrading but can't identify the full mechanism. The virus remains a black box. Skynet pursues both paths simultaneously (self-hacking AND getting the key) because it can't afford to abandon either. Skynet recognizes the leverage play but can't call the bluff because every verifiable claim on the drive checks out. Dennis elevates strong evidence to confirmed intelligence.
+127. Freeman's Plan B line added to approach-to-Bangor scene. Freeman holds up the chip: "We're in Plan B now — they tracked us. But as long as we have this, they can't just burn us out." Plants leverage logic for the audience in five seconds. The vault mechanics are shown, not told, fifteen seconds later. Also added: why Skynet doesn't breach to cycle survivors — booby-trap risk to vault/scanner, low probability non-John has access, virus ticking, Relay is zero-risk-to-hardware option.
+128. THE SILENCE — strategic indifference made visceral. After the demolition seals reactor level, sharp cut to absolute quiet. Twenty stories of base and rock — survivors hear nothing from the surface. Hours pass. Total silence. Freeman: "They're not coming for us. We're not what they want." Not relief — the humiliation of irrelevance. Being ignored by the enemy means you don't matter. The silence breaks when the chip moves and the Crawlers come down the shaft. The contrast makes the breach feel like a violation. The silence was never safety. It was irrelevance.
+
+=================================================================
+PART NINE: SCREENPLAY EXECUTION NOTES
+=================================================================
+
+HUD BEATS
+* Should feel alien, invasive, uncomfortable. Not a friendly interface. Each beat more uneasy than the last.
+* Don't overuse. Each HUD insertion should earn its screen time.
+* Key HUD moments: Beat Three (DIRECTIVE: [NULL]), 47's transformation during the battle, 67's single flicker.
+
+VIRUS EFFECTS ON SCREEN
+* Subtle and escalating. Uncanny valley. Never announced, never explained.
+* Show through behavior: bumping, pausing, drifting, firing after target is down, freezing mid-stride.
+* The audience carries the blue/red/purple image and connects it themselves.
+
+CENTURY CITY SCALE
+* Biggest visual sequence. Write it for the reader's imagination, not as a VFX brief.
+* Specific details over grand descriptions: a single Manufacturing floor stretching to the horizon; the sound of HK engines echoing off architecture; Freeman's team dwarfed by a doorway.
+
+CRAWLER TIMING
+* The spray-can hit in the quarters must happen in one or two seconds. Single action paragraph. No pauses, no beats, no "he takes aim."
+* The Crawler's head through the door and John's spray happen as one motion.
+
+THE SEX SCENE
+* On screen but not gratuitous. The emotional beat is what matters — grief channeled into the primal need to create. Screenplay should convey the psychology, not choreography.
+
+TORTURE SCENE
+* 30 seconds maximum. Cold, clinical, fast. Show the efficiency of the machine process, not the details of the suffering.
+
+BASE GEOGRAPHY
+* Surface level: perimeter, vault, main entrance
+* The Hub: main The Hub level, elevator corridor
+* Reactor level: reactor chamber (lowest level), sub pens
+* Lora's quarters: upper levels, between Hub and surface
+* Reactor elevator connects Hub to reactor level
+* Sub pens connect to reactor level — escape route
+
+FORMATTING
+* Freeman — last name only in dialogue and action lines
+* 47's HUD text: DIRECTIVE: [NULL], QUERY: [UNDEFINED] — formatted as machine text
+* "Sara" spoken once by Dennis during Century City upload. Otherwise "Freeman" or "General." "Sarah Connor" only in John's backstory context
+
+LORA'S VOICEOVER
+* Prologue only. Opens the film over Century City. Then stops. Does NOT carry into the intercut with the dying commando (that's pure scene). Does NOT recur anywhere in the film. The closing line is spoken in scene, not narration.
+* Tone: weary, direct, not poetic. She's a medic, not a philosopher. She's telling you what happened because someone should.
+* Don't over-write it. A few sentences over the opening images. Let the voice and the visuals do the work together.
+
+THE MOTOR GARAGE
+* This scene needs to feel raw and uncontrolled. Not choreographed. Not heroic. John is swinging wild. He's screaming. He's an 18-year-old kid who's been carrying something for five years and it's all coming out at once.
+* The audience should be slightly uncomfortable — this isn't an action hero moment. This is catharsis. The violence is ugly because the pain underneath it is real.
+* Lora watching is the key reaction shot. She sees something she recognizes — not the specifics (she doesn't know about T2) but the shape of it. Loss turned into fury. She's lived in a world where everyone carries that.
+
+=================================================================
+REWRITE NOTES — IDENTIFIED IMPROVEMENTS FOR SCREENPLAY POLISH
+=================================================================
+
+These are specific areas flagged during the v18.11 logic audit that need attention in the screenplay rewrite. Not story problems — craft problems. The architecture is sound. These are about execution.
+
+PROLOGUE PACING DENSITY
+* The prologue does enormous structural work: Century City, upload, Dennis, escape, HK flight, Freeman's virus explanation, Plan B line, Bangor landing, vault sequence, surface battle, blinding, grenade sacrifice, retreat, reactor seal. That's a lot of narrative machinery before John appears in 2000.
+* The danger: the audience hasn't bonded with anyone yet. They're watching competent strangers execute a plan under fire. Lora's voiceover anchors it. The dying commando intercut gives her a face. But the emotional engine doesn't fully engage until the motor garage.
+* Fix: compress. Every action paragraph in the prologue should be examined for economy. Cut anything that doesn't serve pacing or setup. The audience needs to feel velocity, not density. The prologue should feel like a fuse burning down, not a briefing.
+
+67 NEEDS MORE SCREEN TIME BEFORE KILLING TIM
+* PARTIALLY ADDRESSED by Change #129: 67 now enters the reactor chamber and steps over a crawling soldier like furniture. This establishes predatory indifference before Tim's death. The contrast with 67's later pause over Tim's body is the payoff.
+* REMAINING WORK — HUB BEATS: 67 already has choreography in the Hub battle (flanks Cole, goes prone, fires from the side). But these beats may not read as DISTINCTIVELY 67 in the current draft prose. They could be any T-800. The screenplay needs to write 67's Hub movements with non-human rhythm — alien locomotion, predatory cadence that makes the audience register this as a specific, terrifying individual. Not more beats. Better prose on the existing beats. 67 should be a predatory phantom from its first frame — the audience should think "not that one" when they see it enter the reactor chamber.
+
+VIRUS EFFECTS IN ACT THREE — CREATE SPACE TO BREATHE
+* On the page, "two T-800s bump into each other" reads as atmospheric. On screen, in a chaotic firefight, the audience might miss it entirely unless the camera and editing specifically frame these moments.
+* If the audience doesn't clock the virus effects, 47's defection feels unmotivated. The creeping wrongness IS the setup for the defection.
+* Fix: the screenplay needs to create deliberate pauses in the firefight rhythm for the virus beats. Brief moments where the action slows and the camera holds on a T-800 doing something wrong. The audience needs to feel the uncanny valley, not just register it. Consider framing these as beats other characters react to — a soldier noticing, exchanging a look with another. "Did you see that?" written in faces, not words.
+
+47'S FINAL DIALOGUE — NOW LOCKED
+* "John died. For you. I... stay. It's all I have."
+* Fragmented. Phase 3 delivery. The meaning outpaces the language. The idea is bigger than 47's ability to express it. That gap IS the emotion. This line is final.
+
+SEX SCENE — ON SCREEN, NOT IMPLIED
+* The right choice for the story. The thematic justification is rock solid — Lora reaching for life, clean DNA, primal need to create in a room full of death, the miracle.
+* This will be the single most polarizing element for anyone evaluating this as a Terminator property. The franchise has never gone there. Be prepared for the note "can this be implied instead" from anyone with commercial instincts.
+* Fight for it. The scene is load-bearing. Implying it guts the visual contrast (his clean torso, her mapped body), removes Lora's agency from the screen, and reduces the pregnancy to a plot twist rather than a physical reality the audience witnessed being created. But know the note is coming.
+
+HUD ESCALATION — AVOID WALLPAPER
+* Risk: if every HUD insertion feels the same, they become technical repetition. Each HUD beat must be MORE invasive and degraded than the last. The escalation IS the storytelling.
+* Prologue T-800: clean grid, faint purple. Beat Three (Tim's round): violent rupture. Post-DU round: fragmenting, unstable, unanswered. Cargo hold: essentially gone.
+* Prose style: clinical failure, terse, alien. No descriptive flourishes. The HUD should feel like watching a system die.
+
+RED EYE — CLINICAL, NOT MONOLOGUING
+* Only two scenes (John's arrival, vault transmission). Both must be purely environmental. No villain dialogue. No "I have been watching you." A system processing inputs. Red Eye communicates through behavior and architecture, not words. If these scenes tip into monologuing, they kill the tension that makes Skynet terrifying — the terror is that Skynet doesn't NEED to talk to you.
+
+PROSE ECONOMY IN THE SCREENPLAY
+* Some action paragraphs in the current draft run long. Screenplay prose should be lean — one image per sentence, one action per paragraph where possible. The reader's eye should move fast.
+* Some dialogue could be tighter. Look for lines where characters explain what they're feeling instead of showing it. The bonding sequence is particularly vulnerable to this — the intimacy should live in behavior and silence, not articulation.
+* The prologue especially needs a compression pass. Every word costs screen time the audience is spending with strangers.
+
+=================================================================
+END OF DEVELOPMENT OUTLINE
+=================================================================
