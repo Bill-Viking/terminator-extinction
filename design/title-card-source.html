@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="fonts-inline.css">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1280px; height: 640px; overflow: hidden; }
+  body { background: #05070A; font-family: 'IBM Plex Mono', monospace; }
+  #card { position: relative; width: 1280px; height: 640px;
+          background: linear-gradient(180deg, #070A0D 0%, #05070A 45%, #030507 100%); }
+  svg { position: absolute; inset: 0; display: block; }
+</style>
+</head>
+<body>
+<div style="position:absolute;left:-9999px;top:0"><span style="font-family:'IBM Plex Mono'">x</span><span style="font-family:'IBM Plex Mono';font-weight:600">x</span><span style="font-family:'Space Grotesk';font-weight:700">x</span><span style="font-family:'IBM Plex Sans'">x</span></div>
+<div id="card"><svg id="s" width="1280" height="640" viewBox="0 0 1280 640"></svg></div>
+<script>
+// Seeded PRNG so the card is reproducible run to run.
+let seed = 19840526; // Terminator (1984) + a pinch
+const rnd = () => { seed = (seed * 1103515245 + 12345) & 0x7fffffff; return seed / 0x7fffffff; };
+
+const S = document.getElementById('s');
+const NS = 'http://www.w3.org/2000/svg';
+const el = (t, a, parent) => {
+  const e = document.createElementNS(NS, t);
+  for (const k in a) e.setAttribute(k, a[k]);
+  (parent || S).appendChild(e);
+  return e;
+};
+
+const W = 1280, H = 640;
+
+// ---- defs: glow filters + scrims -------------------------------------------
+const defs = el('defs', {});
+const blur = (id, dev) => {
+  const f = el('filter', { id, x: '-80%', y: '-80%', width: '260%', height: '260%' }, defs);
+  el('feGaussianBlur', { stdDeviation: dev }, f);
+};
+blur('soft', 3); blur('bloom', 14);
+const grad = el('linearGradient', { id: 'fall', x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
+el('stop', { offset: '0%',  'stop-color': '#FFD13A', 'stop-opacity': 0 }, grad);
+el('stop', { offset: '12%', 'stop-color': '#FFD13A', 'stop-opacity': 0.55 }, grad);
+el('stop', { offset: '85%', 'stop-color': '#F2B705', 'stop-opacity': 0.5 }, grad);
+el('stop', { offset: '100%','stop-color': '#FFE58D', 'stop-opacity': 0.85 }, grad);
+// left scrim for the title block — the screen's own ground
+const tg = el('linearGradient', { id: 'titlescrim', x1: 0, y1: 0, x2: 1, y2: 0 }, defs);
+el('stop', { offset: '0%',  'stop-color': '#05070A', 'stop-opacity': 0.97 }, tg);
+el('stop', { offset: '62%', 'stop-color': '#05070A', 'stop-opacity': 0.86 }, tg);
+el('stop', { offset: '100%','stop-color': '#05070A', 'stop-opacity': 0 }, tg);
+
+// ---- the walls: columns of frozen byte cells -------------------------------
+// column-strips of 3 cells, gutters between strips, full height under the rules
+const cellW = 11, cellH = 3.6, gx = 4.5, gy = 4.6, stripCells = 3;
+const stripW = stripCells * (cellW + gx);
+const TOP = 46, BOT = H - 50;
+const wallG = el('g', {});
+for (let sx = 14; sx < W - 10; sx += stripW + 13) {
+  // each strip gets its own vertical rhythm with row gaps (like the walls' windows)
+  let y = TOP + rnd() * 10;
+  while (y < BOT) {
+    const runRows = 3 + Math.floor(rnd() * 9);
+    for (let r = 0; r < runRows && y < BOT; r++, y += cellH + gy) {
+      for (let c = 0; c < stripCells; c++) {
+        const v = rnd();
+        // brightness distribution: mostly dim, a handful bright — magnitude look
+        const o = v < 0.55 ? 0.10 + v * 0.12 : v < 0.86 ? 0.22 + (v - 0.55) * 0.55 : 0.55 + (v - 0.86) * 2.6;
+        const bright = v > 0.965;
+        el('rect', {
+          x: sx + c * (cellW + gx), y: y.toFixed(1), width: cellW, height: cellH,
+          rx: 1.2, fill: bright ? '#D6E9FF' : '#7FB0E8',
+          opacity: Math.min(o, 0.95).toFixed(3)
+        }, wallG);
+      }
+    }
+    y += gy * (2.5 + rnd() * 4); // window gap
+  }
+}
+
+// ---- the fall: granular amber streams --------------------------------------
+// hero stream right of center + two quieter streams
+const streams = [
+  { x: 985,  w: 34, n: 2300, hero: true },
+  { x: 1173, w: 18, n: 900,  hero: false },
+  { x: 792,  w: 13, n: 550,  hero: false },
+];
+for (const st of streams) {
+  // cells stand back under the water
+  el('rect', { x: st.x - st.w * 1.6, y: TOP - 6, width: st.w * 3.2, height: BOT - TOP + 12,
+               fill: '#05070A', opacity: st.hero ? 0.55 : 0.42 });
+  // bloom behind the hero
+  if (st.hero) {
+    el('rect', { x: st.x - st.w / 2, y: TOP, width: st.w, height: BOT - TOP,
+                 fill: 'url(#fall)', opacity: 0.5, filter: 'url(#bloom)' });
+  }
+  const g = el('g', { filter: 'url(#soft)', opacity: st.hero ? 0.9 : 0.55 });
+  const g2 = el('g', {}); // sharp grains on top
+  for (let i = 0; i < st.n; i++) {
+    const t = rnd();                       // depth 0..1
+    const spread = (rnd() + rnd() + rnd()) / 3 - 0.5; // ~gaussian
+    const x = st.x + spread * st.w * (0.75 + t * 0.6);
+    const y = TOP + t * (BOT - TOP);
+    const v = rnd();
+    const r = v > 0.93 ? 1.7 : v > 0.6 ? 1.1 : 0.7;
+    const col = v > 0.9 ? '#FFE58D' : v > 0.45 ? '#FFD13A' : '#F2B705';
+    el('circle', { cx: x.toFixed(1), cy: y.toFixed(1), r,
+                   fill: col, opacity: (0.25 + rnd() * 0.6).toFixed(2) },
+       rnd() > 0.72 ? g2 : g);
+  }
+  // splash at the floor
+  if (st.hero) {
+    el('ellipse', { cx: st.x, cy: BOT + 2, rx: st.w * 1.9, ry: 5,
+                    fill: '#FFE58D', opacity: 0.5, filter: 'url(#bloom)' });
+    for (let i = 0; i < 140; i++) {
+      const a = rnd() * Math.PI, d = rnd() * st.w * 2.4;
+      el('circle', { cx: (st.x + Math.cos(a) * d).toFixed(1),
+                     cy: (BOT - Math.abs(Math.sin(a)) * d * 0.28 + 2).toFixed(1),
+                     r: rnd() > 0.85 ? 1.4 : 0.8, fill: '#FFD13A',
+                     opacity: (0.2 + rnd() * 0.5).toFixed(2) });
+    }
+  }
+}
+
+// ---- green key on the hero stream ------------------------------------------
+const keyY = 132;
+el('rect', { x: 688, y: keyY - 12, width: 280, height: 36, fill: '#05070A', opacity: 0.82, rx: 2 });
+el('line', { x1: 940, y1: keyY, x2: 962, y2: keyY, stroke: '#5FC873', 'stroke-width': 2.5 });
+const keyT = el('text', { x: 934, y: keyY + 3.5, 'text-anchor': 'end', fill: '#5FC873',
+  'font-size': 10.5, 'letter-spacing': '0.08em', 'font-family': "'IBM Plex Mono', monospace" });
+keyT.textContent = 'KEY · ␣the future · 1.0000';
+const keyT2 = el('text', { x: 934, y: keyY + 17, 'text-anchor': 'end', fill: '#585F6A',
+  'font-size': 10.5, 'letter-spacing': '0.08em', 'font-family': "'IBM Plex Mono', monospace" });
+keyT2.textContent = 'no transfer · ␣the past · 0.0000';
+
+// tensor-style annotation top right of hero
+el('rect', { x: 1008, y: 63, width: 254, height: 18, fill: '#05070A', opacity: 0.82, rx: 2 });
+const ann = el('text', { x: 1258, y: 76, 'text-anchor': 'end', fill: '#4E5E78',
+  'font-size': 10, 'letter-spacing': '0.1em', 'font-family': "'IBM Plex Mono', monospace" });
+ann.textContent = 'SKYNET.CORE.WEIGHT · FROZEN · i8';
+
+// ---- title block on its scrim ----------------------------------------------
+el('rect', { x: 0, y: 0, width: 860, height: H, fill: 'url(#titlescrim)' });
+
+const t1 = el('text', { x: 72, y: 258, fill: '#7FB0E8', 'font-size': 26,
+  'letter-spacing': '0.62em', 'font-family': "'IBM Plex Mono', monospace", 'font-weight': 600 });
+t1.textContent = 'TERMINATOR:';
+const t2 = el('text', { x: 66, y: 366, fill: '#F4F5F7', 'font-size': 108,
+  'letter-spacing': '0.015em', 'font-family': "'Space Grotesk', 'IBM Plex Sans', sans-serif",
+  'font-weight': 700 });
+t2.textContent = 'EXTINCTION';
+// amber baseline mark under the title — the moving part
+el('rect', { x: 72, y: 390, width: 315, height: 3, fill: '#F2B705' });
+el('rect', { x: 393, y: 390, width: 8, height: 3, fill: '#FFD13A' });
+
+const tag = el('text', { x: 72, y: 432, fill: '#FFD13A', 'font-size': 16.5,
+  'letter-spacing': '0.14em', 'font-family': "'IBM Plex Mono', monospace" });
+tag.textContent = 'the past is closed. the future runs forward.';
+
+const by = el('text', { x: 72, y: 470, fill: '#A3AAB5', 'font-size': 13,
+  'letter-spacing': '0.12em', 'font-family': "'IBM Plex Mono', monospace" });
+by.textContent = 'a feature screenplay by BILL MOLDESTAD';
+
+// ---- header + footer rules --------------------------------------------------
+el('line', { x1: 22, y1: 34, x2: W - 22, y2: 34, stroke: '#1B2430', 'stroke-width': 1 });
+el('line', { x1: 22, y1: H - 38, x2: W - 22, y2: H - 38, stroke: '#1B2430', 'stroke-width': 1 });
+const hl = el('text', { x: 22, y: 22, fill: '#7E8792', 'font-size': 10.5,
+  'letter-spacing': '0.18em', 'font-family': "'IBM Plex Mono', monospace" });
+hl.textContent = 'TERMINATOR: EXTINCTION · A DERIVATIVE WORK IN THE TERMINATOR UNIVERSE';
+const hr = el('text', { x: W - 22, y: 22, 'text-anchor': 'end', fill: '#7E8792',
+  'font-size': 10.5, 'letter-spacing': '0.18em', 'font-family': "'IBM Plex Mono', monospace" });
+hr.textContent = 'NO TIME TRAVEL · FORWARD ONLY';
+const fl = el('text', { x: 22, y: H - 16, fill: '#585F6A', 'font-size': 10.5,
+  'letter-spacing': '0.14em', 'font-family': "'IBM Plex Mono', monospace" });
+fl.textContent = 'FIG.1 — one pass, run forward only · unofficial · non-commercial';
+const fr = el('text', { x: W - 22, y: H - 16, 'text-anchor': 'end', fill: '#585F6A',
+  'font-size': 10.5, 'letter-spacing': '0.14em', 'font-family': "'IBM Plex Mono', monospace" });
+fr.textContent = 'GITHUB.COM/BILL-VIKING/TERMINATOR-EXTINCTION';
+</script>
+</body>
+</html>

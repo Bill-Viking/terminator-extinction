@@ -1,3 +1,5 @@
+![TERMINATOR: EXTINCTION — the past is closed. the future runs forward.](design/title-card.png)
+
 # TERMINATOR: EXTINCTION
 
 A feature-length screenplay by Bill Moldestad — a derivative work set in the
