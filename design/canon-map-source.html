@@ -5,163 +5,104 @@
 <link rel="stylesheet" href="fonts-inline.css">
 <style>
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  html, body { width: 1280px; height: 720px; overflow: hidden; }
-  body { background: #05070A; font-family: 'IBM Plex Mono', monospace; }
-  #card { position: relative; width: 1280px; height: 720px;
+  html, body { width: 1280px; height: 760px; overflow: hidden; }
+  body { background: #05070A; font-family: 'IBM Plex Mono', monospace; color: #A3AAB5; }
+  #card { position: relative; width: 1280px; height: 760px; padding: 0 40px;
           background: linear-gradient(180deg, #070A0D 0%, #05070A 45%, #030507 100%); }
-  svg { position: absolute; inset: 0; display: block; }
+  .rule { border: 0; border-top: 1px solid #1B2430; }
+  .hdr { display: flex; justify-content: space-between; font-size: 10.5px;
+         letter-spacing: 0.18em; color: #7E8792; padding: 12px 0 8px; }
+  .ftr { display: flex; justify-content: space-between; font-size: 10.5px;
+         letter-spacing: 0.14em; color: #585F6A; padding: 9px 0; }
+  h1 { font-family: 'Space Grotesk', sans-serif; font-size: 30px; color: #F4F5F7;
+       font-weight: 700; letter-spacing: 0.01em; margin: 18px 0 2px; }
+  .sub { font-size: 12px; color: #7E8792; letter-spacing: 0.1em; margin-bottom: 16px; }
+  .grid { display: grid; grid-template-columns: 560px 1fr; gap: 16px; }
+  .panel { border: 1px solid #22303F; border-radius: 4px; background: rgba(11,15,20,0.6); }
+  .panel .cap { display: flex; align-items: baseline; gap: 10px; padding: 10px 14px 8px;
+                border-bottom: 1px solid #1B2430; }
+  .cap .step { font-size: 10px; letter-spacing: 0.16em; color: #05070A; font-weight: 600;
+               padding: 2px 7px; border-radius: 2px; background: #7FB0E8; }
+  .cap .step.amber { background: #FFD13A; }
+  .cap .step.green { background: #5FC873; }
+  .cap .t { font-size: 12.5px; font-weight: 600; letter-spacing: 0.12em; color: #D6E9FF; }
+  .cap .n { margin-left: auto; font-size: 10px; color: #585F6A; letter-spacing: 0.1em; }
+  .rows { padding: 6px 14px 10px; }
+  .row { display: grid; grid-template-columns: 250px 1fr; gap: 12px; padding: 5.5px 0;
+         align-items: baseline; }
+  .row + .row { border-top: 1px dotted #161D26; }
+  .f { font-size: 11.5px; color: #7FB0E8; }
+  .f.amber { color: #FFD13A; }
+  .d { font-size: 10.5px; color: #8E97A2; }
+  .hero .row { grid-template-columns: 360px 1fr; }
+  .hero .f { font-size: 12px; font-weight: 600; }
+  .col { display: flex; flex-direction: column; gap: 16px; }
 </style>
 </head>
 <body>
-<div style="position:absolute;left:-9999px;top:0"><span style="font-family:'IBM Plex Mono'">x</span><span style="font-family:'IBM Plex Mono';font-weight:600">x</span><span style="font-family:'Space Grotesk';font-weight:700">x</span></div>
-<div id="card"><svg id="s" width="1280" height="720" viewBox="0 0 1280 720"></svg></div>
-<script>
-let seed = 20290829; // Judgment Day + a pinch
-const rnd = () => { seed = (seed * 1103515245 + 12345) & 0x7fffffff; return seed / 0x7fffffff; };
-const S = document.getElementById('s');
-const NS = 'http://www.w3.org/2000/svg';
-const el = (t, a, parent) => { const e = document.createElementNS(NS, t);
-  for (const k in a) e.setAttribute(k, a[k]); (parent || S).appendChild(e); return e; };
-const txt = (x, y, s, fill, size, opts = {}) => {
-  const e = el('text', Object.assign({ x, y, fill, 'font-size': size,
-    'letter-spacing': '0.1em', 'font-family': "'IBM Plex Mono', monospace" }, opts));
-  e.textContent = s; return e; };
+<div id="card">
+  <div class="hdr"><span>TERMINATOR: EXTINCTION · WHAT'S IN THIS REPOSITORY</span><span>REFERENCE MATERIAL / README</span></div>
+  <hr class="rule">
+  <h1>The documents, in reading order</h1>
+  <div class="sub">public file name on the left · what it is on the right · full legend with original archive names below</div>
 
-const W = 1280, H = 720, L = 60, R = 1220;
-const SX = 660, SW = 30;              // hero stream x / width
+  <div class="col">
+    <div class="panel hero">
+      <div class="cap"><span class="step amber">START</span><span class="t">THE STORY ITSELF</span><span class="n">repo root</span></div>
+      <div class="rows">
+        <div class="row"><span class="f amber">TERMINATOR_EXTINCTION.pdf</span><span class="d">the screenplay — 96 pages, final edit (also as .fdx Final Draft source)</span></div>
+        <div class="row"><span class="f amber">TERMINATOR_EXTINCTION_World_Bible.md</span><span class="d">the world bible — rules, canon, and how everything connects; the front door to all of it</span></div>
+      </div>
+    </div>
 
-const defs = el('defs', {});
-const blur = (id, dev) => { const f = el('filter', { id, x: '-80%', y: '-80%', width: '260%', height: '260%' }, defs);
-  el('feGaussianBlur', { stdDeviation: dev }, f); };
-blur('soft', 2.5); blur('bloom', 12);
-const grad = el('linearGradient', { id: 'fall', x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
-el('stop', { offset: '0%',  'stop-color': '#FFD13A', 'stop-opacity': 0.15 }, grad);
-el('stop', { offset: '80%', 'stop-color': '#F2B705', 'stop-opacity': 0.45 }, grad);
-el('stop', { offset: '100%','stop-color': '#FFE58D', 'stop-opacity': 0.8 }, grad);
+    <div class="grid">
+      <div class="panel">
+        <div class="cap"><span class="step">THEN</span><span class="t">THE CORE — HOW THE STORY IS BUILT</span><span class="n">Reference Material/</span></div>
+        <div class="rows">
+          <div class="row"><span class="f">01-development-outline.txt</span><span class="d">the authoritative blueprint (v18.11, 130 changes)</span></div>
+          <div class="row"><span class="f">02-structural-logic.docx</span><span class="d">why Skynet can't nuke · the Relay · the Silence</span></div>
+          <div class="row"><span class="f">03-themes-and-message.docx</span><span class="d">the thematic spine and craft rules</span></div>
+          <div class="row"><span class="f">04-time-travel-rules.txt</span><span class="d">short and final — the first question, answered</span></div>
+        </div>
+      </div>
 
-// ---- header / footer -------------------------------------------------------
-el('line', { x1: 22, y1: 34, x2: W - 22, y2: 34, stroke: '#1B2430', 'stroke-width': 1 });
-el('line', { x1: 22, y1: H - 36, x2: W - 22, y2: H - 36, stroke: '#1B2430', 'stroke-width': 1 });
-txt(22, 22, 'TERMINATOR: EXTINCTION · THE CANON — HOW THE DOCUMENTS FIT', '#7E8792', 10.5, {'letter-spacing':'0.18em'});
-txt(W - 22, 22, 'READ TOP TO BOTTOM', '#7E8792', 10.5, {'letter-spacing':'0.18em','text-anchor':'end'});
-txt(22, H - 15, 'FIG.2 — the script falls through its reference; the sequels are the landing.', '#585F6A', 10.5, {'letter-spacing':'0.14em'});
-txt(W - 22, H - 15, 'REFERENCE MATERIAL/README.MD', '#585F6A', 10.5, {'letter-spacing':'0.14em','text-anchor':'end'});
+      <div class="panel">
+        <div class="cap"><span class="step">DEEPER</span><span class="t">SUPPORTING NOTES</span><span class="n">Reference Material/</span></div>
+        <div class="rows">
+          <div class="row"><span class="f">05-machine-consciousness-notes.docx</span><span class="d">"it can calculate, but it can't reflect"</span></div>
+          <div class="row"><span class="f">06-temptation-and-the-machine-mind.txt</span><span class="d">consciousness as friction</span></div>
+          <div class="row"><span class="f">07-skynet-self-preservation-logic.txt</span><span class="d">three truths, one lie — and the deep irony</span></div>
+          <div class="row"><span class="f">08-skynet-interior-design-notes.txt</span><span class="d">production design: "white, not pristine"</span></div>
+          <div class="row"><span class="f">09-joan-of-arc-imagery-guide.txt</span><span class="d">Lora's recurring visual motif</span></div>
+          <div class="row"><span class="f">10-terminator-chrome-materials.pdf</span><span class="d">hardware reference</span></div>
+        </div>
+      </div>
+    </div>
 
-// ---- the rim: world bible --------------------------------------------------
-const rimY = 62;
-el('rect', { x: L, y: rimY, width: R - L, height: 24, fill: 'none',
-             stroke: '#7FB0E8', 'stroke-width': 1, rx: 2, opacity: 0.8 });
-for (let x = L + 8; x < R - 8; x += 14) {   // faint cell texture inside the rim
-  const v = rnd();
-  el('rect', { x, y: rimY + 7, width: 9, height: 3.4, rx: 1,
-               fill: '#7FB0E8', opacity: (0.08 + v * 0.22).toFixed(3) });
-}
-el('rect', { x: SX - 210, y: rimY + 3, width: 420, height: 18, fill: '#070A0D', opacity: 0.92 });
-txt(SX, rimY + 16, 'RIM · WORLD BIBLE — the front door', '#D6E9FF', 11.5,
-    {'text-anchor':'middle','font-weight':600});
-txt(R, rimY - 7, 'TERMINATOR_EXTINCTION_World_Bible.md', '#4E5E78', 9.5, {'text-anchor':'end'});
+    <div class="grid">
+      <div class="panel">
+        <div class="cap"><span class="step green">NEXT</span><span class="t">SEQUELS — WHERE THE STORY GOES</span><span class="n">Reference Material/sequels/</span></div>
+        <div class="rows">
+          <div class="row"><span class="f">dark-rain-treatment.docx</span><span class="d">the DARK RAIN treatment (film 2)</span></div>
+          <div class="row"><span class="f">sequel-concept-brief.docx</span><span class="d">the bridging mechanism · Lora as Joan of Arc</span></div>
+          <div class="row"><span class="f">trilogy-outline.docx</span><span class="d">the three-film arc</span></div>
+        </div>
+      </div>
 
-// ---- the script chip -------------------------------------------------------
-const chipY = 100;
-el('rect', { x: SX - 62, y: chipY, width: 124, height: 22, rx: 3, fill: '#FFD13A' });
-txt(SX, chipY + 15, 'THE SCRIPT', '#181509', 11.5, {'text-anchor':'middle','font-weight':600});
-txt(SX + 76, chipY + 15, 'TERMINATOR_EXTINCTION.pdf · 96 pp', '#8E97A2', 9.5);
+      <div class="panel">
+        <div class="cap"><span class="step green">EXTRAS</span><span class="t">SKETCHES</span><span class="n">Reference Material/sketches/</span></div>
+        <div class="rows">
+          <div class="row"><span class="f">becoming-self-aware-1/2.jpg</span><span class="d">early "becoming self-aware" outline drawings</span></div>
+          <div class="row"><span class="f">ai-view-on-*.jpg</span><span class="d">an AI's own view of sentience, memory, and self</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-// ---- the four walls --------------------------------------------------------
-const walls = [
-  { n: '01', name: 'DEVELOPMENT OUTLINE', file: '01-development-outline.txt', note: 'the authoritative blueprint · 130 changes' },
-  { n: '02', name: 'STRUCTURAL LOGIC',    file: '02-structural-logic.docx',   note: "why Skynet can't nuke · the Relay · the Silence" },
-  { n: '03', name: 'THEMES & MESSAGE',    file: '03-themes-and-message.docx', note: 'the thematic spine and craft rules' },
-  { n: '04', name: 'TIME-TRAVEL RULES',   file: '04-time-travel-rules.txt',   note: 'short and final — the first question, answered' },
-];
-const wTop = 140, wH = 64, wGap = 22;
-const cellW = 10, cellH = 3.4, gx = 4, gy = 4.4;
-walls.forEach((w, i) => {
-  const y0 = wTop + i * (wH + wGap);
-  const wallG = el('g', {});
-  for (let sx = L; sx < R - 30; sx += 3 * (cellW + gx) + 11) {
-    for (let r = 0; r < Math.floor(wH / (cellH + gy)); r++) {
-      for (let c = 0; c < 3; c++) {
-        const v = rnd();
-        const o = v < 0.6 ? 0.08 + v * 0.1 : v < 0.9 ? 0.16 + (v - 0.6) * 0.5 : 0.4 + (v - 0.9) * 3.5;
-        el('rect', { x: sx + c * (cellW + gx), y: (y0 + r * (cellH + gy)).toFixed(1),
-                     width: cellW, height: cellH, rx: 1,
-                     fill: v > 0.97 ? '#D6E9FF' : '#7FB0E8', opacity: Math.min(o, 0.9).toFixed(3) }, wallG);
-      }
-    }
-  }
-  // label plates on the screen's own ground
-  el('rect', { x: L - 4, y: y0 + 2, width: 268, height: 30, fill: '#05070A', opacity: 0.88 });
-  txt(L + 4, y0 + 15, w.n + ' · ' + w.name, '#7FB0E8', 11, {'font-weight':600});
-  txt(L + 4, y0 + 28, w.file, '#4E5E78', 9.5);
-  el('rect', { x: R - 340, y: y0 + wH - 18, width: 340, height: 16, fill: '#05070A', opacity: 0.88 });
-  txt(R, y0 + wH - 6, w.note, '#585F6A', 9.5, {'text-anchor':'end'});
-});
-const wallsBottom = wTop + walls.length * (wH + wGap) - wGap;
-
-// ---- the hero stream through it all ----------------------------------------
-const sTop = chipY + 24, sBot = 620;
-el('rect', { x: SX - SW * 1.5, y: sTop, width: SW * 3, height: sBot - sTop, fill: '#05070A', opacity: 0.5 });
-el('rect', { x: SX - SW / 2, y: sTop, width: SW, height: sBot - sTop, fill: 'url(#fall)', opacity: 0.55, filter: 'url(#bloom)' });
-const gSoft = el('g', { filter: 'url(#soft)', opacity: 0.85 }), gSharp = el('g', {});
-for (let i = 0; i < 2400; i++) {
-  const t = rnd(), spread = (rnd() + rnd() + rnd()) / 3 - 0.5;
-  const x = SX + spread * SW * (0.8 + t * 0.5), y = sTop + t * (sBot - sTop);
-  const v = rnd();
-  el('circle', { cx: x.toFixed(1), cy: y.toFixed(1), r: v > 0.93 ? 1.6 : v > 0.6 ? 1.05 : 0.65,
-                 fill: v > 0.9 ? '#FFE58D' : v > 0.45 ? '#FFD13A' : '#F2B705',
-                 opacity: (0.25 + rnd() * 0.55).toFixed(2) }, rnd() > 0.7 ? gSharp : gSoft);
-}
-// green key at the second wall
-const keyY = wTop + wH + wGap + 20;
-el('line', { x1: SX + 26, y1: keyY, x2: SX + 48, y2: keyY, stroke: '#5FC873', 'stroke-width': 2.5 });
-el('rect', { x: SX + 52, y: keyY - 10, width: 224, height: 16, fill: '#05070A', opacity: 0.88 });
-txt(SX + 56, keyY + 3, 'KEY · the rules hold · 1.0000', '#5FC873', 10);
-
-// ---- the notes row (05–10) -------------------------------------------------
-const notes = [
-  { n: '05', name: 'machine consciousness' },
-  { n: '06', name: 'temptation & the machine mind' },
-  { n: '07', name: 'self-preservation logic' },
-  { n: '08', name: 'interior design notes' },
-  { n: '09', name: 'joan of arc imagery' },
-  { n: '10', name: 'chrome materials (pdf)' },
-];
-const nY = wallsBottom + 26, nW = (R - L - 5 * 14) / 6, nH = 44;
-notes.forEach((nt, i) => {
-  const x0 = L + i * (nW + 14);
-  el('rect', { x: x0, y: nY, width: nW, height: nH, fill: '#05070A', opacity: 0.9, rx: 2 });
-  el('rect', { x: x0, y: nY, width: nW, height: nH, fill: 'none', stroke: '#22303F', 'stroke-width': 1, rx: 2 });
-  for (let xx = x0 + 6; xx < x0 + nW - 12; xx += 13) {
-    el('rect', { x: xx, y: nY + 6, width: 8, height: 3, rx: 1, fill: '#7FB0E8', opacity: (0.06 + rnd() * 0.16).toFixed(3) });
-  }
-  txt(x0 + 8, nY + 25, nt.n, '#7FB0E8', 10.5, {'font-weight':600});
-  txt(x0 + 8, nY + 37, nt.name, '#8E97A2', 8.8, {'letter-spacing':'0.04em'});
-});
-txt(L, nY - 8, 'SUPPORTING NOTES — the smaller walls', '#585F6A', 9.5);
-txt(R, nY - 8, 'sketches/ — the early self-awareness drawings', '#4E5E78', 9.5, {'text-anchor':'end'});
-
-// ---- the landing: sequels --------------------------------------------------
-const landY = 630;
-el('ellipse', { cx: SX, cy: landY, rx: 200, ry: 7, fill: '#FFE58D', opacity: 0.4, filter: 'url(#bloom)' });
-for (let i = 0; i < 160; i++) {
-  const a = rnd() * Math.PI, d = rnd() * 190;
-  el('circle', { cx: (SX + Math.cos(a) * d).toFixed(1),
-                 cy: (landY - Math.abs(Math.sin(a)) * d * 0.12).toFixed(1),
-                 r: rnd() > 0.85 ? 1.3 : 0.75, fill: '#FFD13A', opacity: (0.15 + rnd() * 0.45).toFixed(2) });
-}
-const seq = [
-  { name: 'DARK RAIN', file: 'sequels/dark-rain-treatment.docx', x: SX - 300 },
-  { name: 'CONCEPT BRIEF', file: 'sequels/sequel-concept-brief.docx', x: SX - 70 },
-  { name: 'TRILOGY OUTLINE', file: 'sequels/trilogy-outline.docx', x: SX + 160 },
-];
-txt(L, landY + 5, 'THE LANDING — WHERE THE STORY GOES NEXT', '#585F6A', 9.5);
-seq.forEach(s => {
-  el('rect', { x: s.x, y: landY + 14, width: 12, height: 12, fill: '#F2B705', opacity: 0.85, rx: 1.5 });
-  txt(s.x + 18, landY + 21, s.name, '#FFD13A', 10, {'font-weight':600});
-  txt(s.x + 18, landY + 33, s.file, '#585F6A', 8.8);
-});
-
-</script>
+  <div style="position:absolute; left:40px; right:40px; bottom:0">
+    <hr class="rule">
+    <div class="ftr"><span>FIG.2 — repository map · unofficial · non-commercial derivative work</span><span>GITHUB.COM/BILL-VIKING/TERMINATOR-EXTINCTION</span></div>
+  </div>
+</div>
 </body>
 </html>
