@@ -1,6 +1,7 @@
 # TERMINATOR: EXTINCTION
 
-An original feature-length screenplay by Bill Moldestad.
+A feature-length screenplay by Bill Moldestad — a derivative work set in the
+Terminator universe.
 
 A reboot attempt of the Terminator franchise that eliminates the recurring
 plot device of a Terminator coming back into the past. No more time travel to
@@ -20,9 +21,9 @@ This is the final edit (July 2026).
 
 ## Legal note
 
-This is an unofficial, non-commercial fan screenplay. The Terminator
-franchise, its characters, and associated trademarks are the property of
-their respective rights holders. This script is not affiliated with,
-endorsed by, or sponsored by them. The original written material here is
-shared for reading and discussion; no rights to the underlying franchise
-are claimed or granted.
+This is an unofficial, non-commercial derivative work of the Terminator
+franchise. The franchise, its characters, and associated trademarks are
+the property of their respective rights holders. This script is not
+affiliated with, endorsed by, or sponsored by them. It is shared for
+reading and discussion; no rights to the underlying franchise are claimed
+or granted.
