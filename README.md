@@ -20,13 +20,13 @@ on beyond John Connor.
 
 ## Reference material
 
-Curated development documents in [`Reference Material/`](Reference%20Material/):
-the authoritative development outline, the structural logic (why Skynet
-can't nuke, the Relay, the Silence), the thematic spine, and the time-travel
-rules — plus supporting notes on machine consciousness and production design,
-and the original "becoming self-aware" outline sketches. Sequel material
-(the DARK RAIN treatment and sequel concept brief) lives in
-[`Reference Material/Sequels/`](Reference%20Material/Sequels/).
+Curated development documents in [`Reference Material/`](Reference%20Material/),
+numbered in reading order — start with its
+[README and canon map](Reference%20Material/README.md), which also carries
+the legend tying each public file name back to the original in the author's
+archive. Sequel material (the DARK RAIN treatment, sequel concept brief, and
+trilogy outline) lives in
+[`Reference Material/sequels/`](Reference%20Material/sequels/).
 
 ## Status
 
